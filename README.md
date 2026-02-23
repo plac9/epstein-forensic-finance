@@ -64,7 +64,7 @@ DOJ subpoena names a BVI shell. ICIJ Offshore Leaks confirms it. Scouting Intern
 | **Unique persons identified** | **734,122** | 1,536 registry | 1,589 | — |
 | **Financial transactions modeled** | **81,451** (5B) + **23,832** (5C directional) | ~186 normalized | 0 | 0 |
 | **Directional fund flows (A→B)** | **23,832** | qualitative | 0 | 0 |
-| **Wire transfers in master ledger** | **382** (Phase 25 audited) | 0 | 0 | 0 |
+| **Wire transfers in master ledger** | **420** (Phase 5H audited) | 0 | 0 | 0 |
 | **Relational database tables** | **35** | 3-4 | — | — |
 | **Confidence-tiered scoring** | ✅ 5-axis | — | — | — |
 | **Redaction proximity analysis** | ✅ | ✅ (different method) | — | — |
