@@ -19,11 +19,11 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 
 ## 📌 Start Here
 
-### 🔺 New: One-Way Money
+### 🔺 New: Offshore Architecture
 
-> I ran a balance sheet across all eight banking institutions, all 382 wires, all $558 million. **$272 million entered from external sources. $63 million is visible leaving. $209 million has no documented exit in any production from any institution.** This is the first multi-institution balance sheet ever published on the Epstein shell network.
->
-> **→ [Read Narrative 17](narratives/17_the_architecture.md)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html" target="_blank">Interactive Visualization</a>**
+DOJ subpoena names a BVI shell. ICIJ Offshore Leaks confirms it. Scouting International Investment Co., Ltd. — incorporated Tortola, November 2003, now defunct — sits alongside a $10M+ Butterfly Trust pipeline that paid Maxwell $648K+. 8,526 pages, 172 documents, 3 databases cross-referenced. The offshore map no one had connected.
+
+> **→ [Read Narrative 18](narratives/18_offshore_architecture.md)**
 
 
 > **18 data narratives** reconstruct how $1.964 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
