@@ -87,7 +87,7 @@ DOJ subpoena names a BVI shell. ICIJ Offshore Leaks confirms it. Scouting Intern
 | **Extraction Coverage** | **104.6%** |
 | **Extraction Phases** | 25 |
 | **Contamination Bugs Caught & Fixed** | 9 |
-| **Wire Transfers in Master Ledger** | 420 (Phase 5I audited) |
+| **Wire Transfers in Master Ledger** | 481 (Phase 5I audited) |
 | **Shell-to-Shell Transfers Identified** | 45 |
 | **Shell Trust Hierarchy Tiers Mapped** | 4 |
 
@@ -175,7 +175,7 @@ This is not a search index. This is a relational forensic database.
 - `fincen_bank_connections` — Bank relationship mapping from regulatory filings
 - `financial_hits` — 81,451 raw financial content extraction markers
 - `financial_redactions` — Redacted financial content specifically tracked
-- `master_wire_ledger` — 420 Phase 5H-audited wires with flow direction and entity classification
+- `master_wire_ledger` — 481 Phase 5I-audited wires with flow direction and entity classification
 
 **Entity Intelligence**
 - `entities` — 11.4M extracted entities with NLP classification (PERSON, ORG, GPE)
