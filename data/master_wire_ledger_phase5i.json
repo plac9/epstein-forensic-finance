@@ -24,6 +24,54 @@
     "validation_tier": "FINCEN_AMOUNT_MATCH"
   },
   {
+    "id": 421,
+    "entity_from": "The Haze Trust (Brokerage)",
+    "entity_to": "The Haze Trust (Checking)",
+    "amount": 36000000.0,
+    "date": "2017-03-10",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0006153",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 422,
+    "entity_from": "The Haze Trust (Checking)",
+    "entity_to": "Southern Financial LLC (Checking)",
+    "amount": 24564037.0,
+    "date": "2019-02-22",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008063",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 56,
     "entity_from": "Kellerhals Ferguson Kroblin PLLC",
     "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
@@ -31,7 +79,7 @@
     "date": "2015-11-13",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005003",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -45,7 +93,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 423,
+    "entity_from": "BV70 LLC",
+    "entity_to": "Plan D LLC",
+    "amount": 22500000.0,
+    "date": "2017-03-31",
+    "source": "verified_wires",
+    "exhibit": "A",
+    "bates": "DB-SDNY-0006113",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 409,
@@ -72,6 +144,54 @@
     "validation_tier": "STATEMENT_ONLY"
   },
   {
+    "id": 425,
+    "entity_from": "The Haze Trust (Brokerage)",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 20000000.0,
+    "date": "2016-01-08",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0005135",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "MONEY OUT",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 424,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Partners LP",
+    "amount": 20000000.0,
+    "date": "2016-05-31",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005457",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 21,
     "entity_from": "Narrow Holdings LLC c/o Elysium Management",
     "entity_to": "Southern Trust Company Inc.",
@@ -79,7 +199,7 @@
     "date": "2014-07-15",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004009",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -93,7 +213,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 15,
@@ -103,7 +223,7 @@
     "date": "2014-04-29",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0003819",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -117,7 +237,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 59,
@@ -127,7 +247,7 @@
     "date": "2015-12-21",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0005122",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -141,7 +261,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 31,
@@ -151,7 +271,7 @@
     "date": "2014-10-16",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004172",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -165,7 +285,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 23,
@@ -175,7 +295,7 @@
     "date": "2014-08-04",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004032",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -189,7 +309,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 426,
+    "entity_from": "The Haze Trust (Brokerage)",
+    "entity_to": "The Haze Trust (Checking)",
+    "amount": 12608253.0,
+    "date": "2019-02-19",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008064",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 80,
@@ -199,7 +343,7 @@
     "date": "2017-10-24",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0006646",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -213,7 +357,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 87,
@@ -223,7 +367,7 @@
     "date": "2018-02-21",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0006982",
     "is_date_recovery": 0,
     "was_in_amount_dedup": 0,
     "above_cap": 1,
@@ -237,7 +381,199 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 434,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Multi Strategy Fund LP",
+    "amount": 10000000.0,
+    "date": "2014-05-02",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0003845",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 433,
+    "entity_from": "BV70 LLC",
+    "entity_to": "Gratitude America Ltd.",
+    "amount": 10000000.0,
+    "date": "2015-10-14",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0004999",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 432,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Absolute Strategies Fund LP",
+    "amount": 10000000.0,
+    "date": "2016-03-01",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005280",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 431,
+    "entity_from": "Boothbay Absolute Return Strategies LP",
+    "entity_to": "Southern Financial LLC",
+    "amount": 10000000.0,
+    "date": "2017-01-06",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005951",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 430,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Partners LP",
+    "amount": 10000000.0,
+    "date": "2018-06-27",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0007348",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 429,
+    "entity_from": "Plan D LLC",
+    "entity_to": "BV70 LLC",
+    "amount": 10000000.0,
+    "date": "2018-10-02",
+    "source": "verified_wires",
+    "exhibit": "A",
+    "bates": "DB-SDNY-0007669",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 428,
+    "entity_from": "The 2017 Caterpillar Trust",
+    "entity_to": "Honeycomb Ventures IV LP",
+    "amount": 10000000.0,
+    "date": "2019-03-13",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0008151",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 427,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Partners LP",
+    "amount": 10000000.0,
+    "date": "2019-03-28",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0008154",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 1,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 102,
@@ -247,7 +583,7 @@
     "date": "2018-10-01",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007725",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -261,7 +597,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 60,
@@ -271,7 +607,7 @@
     "date": "2015-12-30",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0005123",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -285,7 +621,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 58,
@@ -295,7 +631,7 @@
     "date": "2015-12-18",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0005122",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -309,7 +645,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 57,
@@ -319,7 +655,7 @@
     "date": "2015-12-17",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0005122",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -333,7 +669,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 5,
@@ -343,7 +679,7 @@
     "date": "2013-12-18",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0003484",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -357,7 +693,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 95,
@@ -367,7 +703,7 @@
     "date": "2018-06-22",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007361",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -381,7 +717,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 324,
@@ -405,7 +741,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 321,
@@ -429,7 +765,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 435,
+    "entity_from": "The Haze Trust (Checking)",
+    "entity_to": "Southern Financial LLC (Checking)",
+    "amount": 8791283.0,
+    "date": "2019-02-07",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008063",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 336,
@@ -453,7 +813,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 213,
@@ -477,7 +837,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 2,
@@ -487,7 +847,7 @@
     "date": "2013-10-15",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0002962",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -501,7 +861,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 326,
@@ -525,7 +885,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 323,
@@ -549,7 +909,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 437,
+    "entity_from": "BV70 LLC",
+    "entity_to": "Plan D LLC",
+    "amount": 8000000.0,
+    "date": "2017-04-17",
+    "source": "verified_wires",
+    "exhibit": "A",
+    "bates": "DB-SDNY-0006197",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 436,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Partners LP",
+    "amount": 8000000.0,
+    "date": "2018-09-28",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0007623",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 335,
@@ -573,7 +981,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 329,
@@ -583,7 +991,7 @@
     "date": "3/31/2017",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005123",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -597,7 +1005,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 133,
@@ -607,7 +1015,7 @@
     "date": "9/28/2018",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007635",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -621,7 +1029,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 128,
@@ -645,7 +1053,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 101,
@@ -655,7 +1063,7 @@
     "date": "2018-09-28",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007635",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -669,7 +1077,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 75,
@@ -679,7 +1087,7 @@
     "date": "2017-04-25",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0006240",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -693,7 +1101,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 77,
@@ -703,7 +1111,7 @@
     "date": "2017-06-19",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0006320",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -717,7 +1125,79 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 440,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Absolute Strategies Fund LP",
+    "amount": 7000000.0,
+    "date": "2015-07-28",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004745",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 439,
+    "entity_from": "Jeffrey Epstein (Checking)",
+    "entity_to": "The Haze Trust (Checking)",
+    "amount": 7000000.0,
+    "date": "2019-02-19",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008063",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSONAL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 438,
+    "entity_from": "The Haze Trust (Checking)",
+    "entity_to": "Jeffrey Epstein (Checking)",
+    "amount": 7000000.0,
+    "date": "2019-02-22",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008063",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "MONEY OUT",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 134,
@@ -727,7 +1207,7 @@
     "date": "2/19/2019",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0008063",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -741,7 +1221,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 30,
@@ -751,7 +1231,7 @@
     "date": "2014-10-16",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004172",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -765,7 +1245,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 410,
@@ -792,6 +1272,30 @@
     "validation_tier": "STATEMENT_ONLY"
   },
   {
+    "id": 441,
+    "entity_from": "The Haze Trust (Brokerage)",
+    "entity_to": "The Haze Trust (Checking)",
+    "amount": 6000000.0,
+    "date": "2019-01-10",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0007979",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 370,
     "entity_from": "DEUTSCHE",
     "entity_to": "BUTTERFLY_TRUST",
@@ -813,7 +1317,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 333,
@@ -837,7 +1341,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 135,
@@ -847,7 +1351,7 @@
     "date": "1/10/2019",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007979",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -861,7 +1365,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 443,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Absolute Strategies Fund LP",
+    "amount": 5000000.0,
+    "date": "2016-03-31",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005281",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 442,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Partners LP",
+    "amount": 5000000.0,
+    "date": "2018-06-28",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0007348",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 334,
@@ -885,7 +1437,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 330,
@@ -895,7 +1447,7 @@
     "date": "4/25/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0003484",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -909,7 +1461,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 314,
@@ -933,7 +1485,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 287,
@@ -943,7 +1495,7 @@
     "date": "6/28/2018",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005280",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -957,7 +1509,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 232,
@@ -967,7 +1519,7 @@
     "date": "3/2/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005264",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -981,7 +1533,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 136,
@@ -991,7 +1543,7 @@
     "date": "8/20/2018",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007361",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1005,7 +1557,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 111,
@@ -1015,7 +1567,7 @@
     "date": "2018-12-19",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007908",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1029,7 +1581,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 105,
@@ -1039,7 +1591,7 @@
     "date": "2018-10-24",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007725",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1053,7 +1605,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 98,
@@ -1063,7 +1615,7 @@
     "date": "2018-09-17",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007635",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1077,7 +1629,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 96,
@@ -1087,7 +1639,7 @@
     "date": "2018-08-20",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007544",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1101,7 +1653,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 65,
@@ -1111,7 +1663,7 @@
     "date": "2016-03-02",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005334",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1125,7 +1677,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 53,
@@ -1135,7 +1687,7 @@
     "date": "2015-10-13",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004990",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1149,7 +1701,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 52,
@@ -1159,7 +1711,7 @@
     "date": "2015-10-13",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004990",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1173,7 +1725,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 14,
@@ -1183,7 +1735,7 @@
     "date": "2014-04-25",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0003819",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1197,7 +1749,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 13,
@@ -1207,7 +1759,7 @@
     "date": "2014-04-25",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0003819",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1221,7 +1773,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 445,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Absolute Strategies Fund LP",
+    "amount": 4250000.0,
+    "date": "2015-09-28",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004881",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 444,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 4250000.0,
+    "date": "2017-07-24",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006407",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 10,
@@ -1231,7 +1831,7 @@
     "date": "2014-02-20",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003640",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1245,7 +1845,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 446,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 3750000.0,
+    "date": "2016-12-12",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005932",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 284,
@@ -1255,7 +1879,7 @@
     "date": "2/2/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005882",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1269,7 +1893,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 235,
@@ -1293,7 +1917,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 12,
@@ -1303,7 +1927,7 @@
     "date": "2014-04-11",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003769",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1317,7 +1941,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 383,
@@ -1351,7 +1975,7 @@
     "date": "2019-02-07",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008016",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1365,7 +1989,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 272,
@@ -1389,7 +2013,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 257,
@@ -1413,7 +2037,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 189,
@@ -1437,7 +2061,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 47,
@@ -1447,7 +2071,7 @@
     "date": "2015-07-09",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004736",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1461,7 +2085,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 447,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 3000000.0,
+    "date": "2017-04-20",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006240",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 331,
@@ -1471,7 +2119,7 @@
     "date": "10/22/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0004173",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1485,7 +2133,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 316,
@@ -1509,7 +2157,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 311,
@@ -1533,7 +2181,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 268,
@@ -1557,7 +2205,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 126,
@@ -1581,7 +2229,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 106,
@@ -1591,7 +2239,7 @@
     "date": "2018-10-25",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007653",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1605,7 +2253,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 33,
@@ -1615,7 +2263,7 @@
     "date": "2014-10-22",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004173",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1629,7 +2277,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 19,
@@ -1639,7 +2287,7 @@
     "date": "2014-06-11",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003896",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1653,7 +2301,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 1,
@@ -1663,7 +2311,7 @@
     "date": "2013-10-11",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0002926",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1677,7 +2325,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 190,
@@ -1701,7 +2349,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 130,
@@ -1711,7 +2359,7 @@
     "date": "1/10/2019",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007908",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1725,7 +2373,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 113,
@@ -1735,7 +2383,7 @@
     "date": "2019-01-10",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007979",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1749,7 +2397,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 448,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund II LP",
+    "amount": 2700000.0,
+    "date": "2015-03-30",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004487",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 88,
@@ -1759,7 +2431,7 @@
     "date": "2018-02-21",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0006982",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1773,7 +2445,79 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 451,
+    "entity_from": "Gratitude America (Checking)",
+    "entity_to": "Gratitude America MMDA",
+    "amount": 2500000.0,
+    "date": "2017-12-11",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006822",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 450,
+    "entity_from": "The Haze Trust (Checking)",
+    "entity_to": "Southern Financial LLC (Checking)",
+    "amount": 2500000.0,
+    "date": "2018-11-20",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0007798",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 449,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 2500000.0,
+    "date": "2019-01-08",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0007987",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 132,
@@ -1783,7 +2527,7 @@
     "date": "7/16/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007725",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1797,7 +2541,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 55,
@@ -1807,7 +2551,7 @@
     "date": "2015-10-29",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004938",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1821,7 +2565,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 36,
@@ -1831,7 +2575,7 @@
     "date": "2015-01-05",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004296",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1845,7 +2589,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 28,
@@ -1855,7 +2599,7 @@
     "date": "2014-10-02",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004126",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1869,7 +2613,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 25,
@@ -1879,7 +2623,7 @@
     "date": "2014-08-19",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004022",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1893,7 +2637,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 452,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 2250000.0,
+    "date": "2017-10-11",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006652",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 411,
@@ -1920,6 +2688,54 @@
     "validation_tier": "FINCEN_VALIDATED"
   },
   {
+    "id": 454,
+    "entity_from": "Southern Financial LLC",
+    "entity_to": "Boothbay Absolute Strategies Fund LP",
+    "amount": 2000000.0,
+    "date": "2015-06-30",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004675",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 453,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 2000000.0,
+    "date": "2018-01-30",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006907",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 332,
     "entity_from": "PLAN D LLC",
     "entity_to": "LEON_BLACK",
@@ -1927,7 +2743,7 @@
     "date": "10/22/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0004172",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1941,7 +2757,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 319,
@@ -1965,7 +2781,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 127,
@@ -1975,7 +2791,7 @@
     "date": "11/13/2013",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0002926; DB-SDNY-0002992",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -1989,7 +2805,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 72,
@@ -1999,7 +2815,7 @@
     "date": "2016-10-26",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005748",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2013,7 +2829,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 70,
@@ -2023,7 +2839,7 @@
     "date": "2016-09-09",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005683",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2037,7 +2853,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 51,
@@ -2047,7 +2863,7 @@
     "date": "2015-10-07",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004937",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2061,7 +2877,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 50,
@@ -2071,7 +2887,7 @@
     "date": "2015-08-20",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004807",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2085,7 +2901,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 46,
@@ -2095,7 +2911,7 @@
     "date": "2015-07-06",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004735",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2109,7 +2925,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 45,
@@ -2119,7 +2935,7 @@
     "date": "2015-06-12",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004665",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2133,7 +2949,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 43,
@@ -2143,7 +2959,7 @@
     "date": "2015-05-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004587",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2157,7 +2973,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 42,
@@ -2167,7 +2983,7 @@
     "date": "2015-04-16",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004509",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2181,7 +2997,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 40,
@@ -2191,7 +3007,7 @@
     "date": "2015-03-27",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004432",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2205,7 +3021,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 39,
@@ -2215,7 +3031,7 @@
     "date": "2015-03-13",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004431",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2229,7 +3045,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 32,
@@ -2239,7 +3055,7 @@
     "date": "2014-10-22",
     "source": "verified_wires",
     "exhibit": "A",
-    "bates": "",
+    "bates": "DB-SDNY-0004173",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2253,7 +3069,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 22,
@@ -2263,7 +3079,7 @@
     "date": "2014-07-16",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003960",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2277,7 +3093,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 16,
@@ -2287,7 +3103,7 @@
     "date": "2014-05-06",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003832",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2301,7 +3117,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 8,
@@ -2311,7 +3127,7 @@
     "date": "2014-01-30",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003538",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2325,7 +3141,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 6,
@@ -2335,7 +3151,7 @@
     "date": "2013-12-20",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003427",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2349,7 +3165,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 4,
@@ -2359,7 +3175,7 @@
     "date": "2013-11-14",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0002994",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2373,7 +3189,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 455,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund II LP",
+    "amount": 1950000.0,
+    "date": "2015-09-24",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004924",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 456,
+    "entity_from": "Jeffrey Epstein c/o HBRK Associates",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 1928647.0,
+    "date": "2014-11-17",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0004183",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "MONEY OUT",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 89,
@@ -2383,7 +3247,7 @@
     "date": "2018-02-21",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0006982",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2397,7 +3261,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 328,
@@ -2421,7 +3285,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 457,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 1750000.0,
+    "date": "2018-06-01",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0007348",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 267,
@@ -2445,7 +3333,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 412,
@@ -2472,6 +3360,78 @@
     "validation_tier": "FINCEN_RANGE_MATCH"
   },
   {
+    "id": 459,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 1500000.0,
+    "date": "2018-01-05",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006901",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 458,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 1500000.0,
+    "date": "2019-04-17",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0008222",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 460,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 1250000.0,
+    "date": "2016-08-18",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005667",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 285,
     "entity_from": "SOUTHERN_TRUST",
     "entity_to": "ITO",
@@ -2479,7 +3439,7 @@
     "date": "8/18/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005526",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2493,7 +3453,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 461,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Honeycomb Ventures I LP",
+    "amount": 1000000.0,
+    "date": "2017-07-10",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006407",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 150,
@@ -2517,7 +3501,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 54,
@@ -2527,7 +3511,7 @@
     "date": "2015-10-19",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004937",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2541,7 +3525,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 41,
@@ -2551,7 +3535,7 @@
     "date": "2015-04-13",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004518",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2565,7 +3549,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 462,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund II LP",
+    "amount": 900000.0,
+    "date": "2015-02-12",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004412",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 129,
@@ -2589,7 +3597,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 327,
@@ -2613,7 +3621,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 325,
@@ -2637,7 +3645,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 322,
@@ -2661,7 +3669,79 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 464,
+    "entity_from": "Jeffrey Epstein",
+    "entity_to": "Jeffrey Epstein (Non-DB Account)",
+    "amount": 700000.0,
+    "date": "2016-09-28",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0005684",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSONAL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 463,
+    "entity_from": "Jeffrey Epstein (Non-DB Account)",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 700000.0,
+    "date": "2018-09-28",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0006510",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSONAL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 465,
+    "entity_from": "Michelle Saipher / Darren Indyke",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 698000.0,
+    "date": "2014-05-21",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0003833",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSON",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 124,
@@ -2671,7 +3751,7 @@
     "date": "5/16/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0003; DB-SDNY-0003832",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2685,7 +3765,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 177,
@@ -2709,7 +3789,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 24,
@@ -2719,7 +3799,7 @@
     "date": "2014-08-08",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004032",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2733,7 +3813,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 466,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund II LP",
+    "amount": 600000.0,
+    "date": "2015-07-24",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004790",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 467,
+    "entity_from": "Michelle Saipher / Darren Indyke",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 525000.0,
+    "date": "2014-05-21",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0003834",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSON",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 26,
@@ -2743,7 +3871,7 @@
     "date": "2014-09-09",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004084",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2757,7 +3885,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 468,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 500000.0,
+    "date": "2018-02-15",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0006985",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 356,
@@ -2781,7 +3933,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 318,
@@ -2805,7 +3957,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 259,
@@ -2829,7 +3981,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 233,
@@ -2839,7 +3991,7 @@
     "date": "7/19/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005605",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2853,7 +4005,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 220,
@@ -2877,7 +4029,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 108,
@@ -2887,7 +4039,7 @@
     "date": "2018-11-20",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0007748",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2901,7 +4053,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 94,
@@ -2911,7 +4063,7 @@
     "date": "2018-06-13",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0007289",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2925,7 +4077,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 84,
@@ -2935,7 +4087,7 @@
     "date": "2018-01-12",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0006847",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2949,7 +4101,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 76,
@@ -2959,7 +4111,7 @@
     "date": "2017-05-05",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0000478",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2973,7 +4125,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 69,
@@ -2983,7 +4135,7 @@
     "date": "2016-07-19",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005605",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -2997,7 +4149,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 67,
@@ -3007,7 +4159,7 @@
     "date": "2016-04-19",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005342",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3021,7 +4173,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 48,
@@ -3031,7 +4183,7 @@
     "date": "2015-08-05",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004815",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3045,7 +4197,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 413,
@@ -3093,7 +4245,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 384,
@@ -3165,7 +4317,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 386,
@@ -3213,7 +4365,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 373,
@@ -3237,7 +4389,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 414,
@@ -3285,7 +4437,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
+  },
+  {
+    "id": 469,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 314876.0,
+    "date": "2019-01-10",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0007994",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 157,
@@ -3309,7 +4485,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 320,
@@ -3333,7 +4509,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 279,
@@ -3357,7 +4533,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 18,
@@ -3367,7 +4543,7 @@
     "date": "2014-05-16",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003833",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3381,7 +4557,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 159,
@@ -3405,7 +4581,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 228,
@@ -3429,7 +4605,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 381,
@@ -3453,7 +4629,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 374,
@@ -3477,7 +4653,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 154,
@@ -3501,7 +4677,103 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
+  },
+  {
+    "id": 473,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 250000.0,
+    "date": "2016-03-08",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0005334",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 472,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund III LP",
+    "amount": 250000.0,
+    "date": "2016-06-23",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0005526",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 471,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 250000.0,
+    "date": "2017-03-06",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006165",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 470,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 250000.0,
+    "date": "2017-06-01",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006333",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 288,
@@ -3511,7 +4783,7 @@
     "date": "6/23/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005457",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3525,7 +4797,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 234,
@@ -3535,7 +4807,7 @@
     "date": "3/6/2017",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0006006",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3549,7 +4821,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 66,
@@ -3559,7 +4831,7 @@
     "date": "2016-04-06",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005401",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3573,7 +4845,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 38,
@@ -3583,7 +4855,7 @@
     "date": "2015-03-12",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0004441",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3597,7 +4869,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 20,
@@ -3607,7 +4879,7 @@
     "date": "2014-07-02",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0003972",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3621,7 +4893,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 149,
@@ -3645,7 +4917,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 355,
@@ -3669,7 +4941,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 415,
@@ -3703,7 +4975,7 @@
     "date": "2016-01-29",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005198",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3717,7 +4989,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 7,
@@ -3727,7 +4999,7 @@
     "date": "2014-01-24",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003538",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3741,7 +5013,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 387,
@@ -3789,7 +5061,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 375,
@@ -3813,7 +5085,55 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
+  },
+  {
+    "id": 475,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 200000.0,
+    "date": "2017-01-20",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006006",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 474,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 200000.0,
+    "date": "2017-06-07",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006333",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 231,
@@ -3823,7 +5143,7 @@
     "date": "1/20/2017",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005605",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3837,7 +5157,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 217,
@@ -3861,7 +5181,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 3,
@@ -3871,7 +5191,7 @@
     "date": "2013-11-13",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0002992",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -3885,7 +5205,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 142,
@@ -3909,7 +5229,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 371,
@@ -3933,7 +5253,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 377,
@@ -3957,7 +5277,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 416,
@@ -4005,7 +5325,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 290,
@@ -4029,7 +5349,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 388,
@@ -4077,7 +5397,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 198,
@@ -4101,7 +5421,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 49,
@@ -4111,7 +5431,7 @@
     "date": "2015-08-13",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004806",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4125,7 +5445,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 389,
@@ -4176,6 +5496,30 @@
     "validation_tier": "FINCEN_RANGE_MATCH"
   },
   {
+    "id": 476,
+    "entity_from": "The Haze Trust (Brokerage)",
+    "entity_to": "The Haze Trust (Checking)",
+    "amount": 167414.0,
+    "date": "2019-02-19",
+    "source": "verified_wires",
+    "exhibit": "D",
+    "bates": "DB-SDNY-0008064",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 260,
     "entity_from": "ACCT NAME",
     "entity_to": "LEXINGTON",
@@ -4197,7 +5541,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 222,
@@ -4221,7 +5565,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 244,
@@ -4245,7 +5589,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 379,
@@ -4269,7 +5613,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 225,
@@ -4293,7 +5637,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 391,
@@ -4344,6 +5688,54 @@
     "validation_tier": "FINCEN_RANGE_MATCH"
   },
   {
+    "id": 478,
+    "entity_from": "Southern Trust Company Inc.",
+    "entity_to": "Valar Global Fund II LP",
+    "amount": 150000.0,
+    "date": "2015-01-21",
+    "source": "verified_wires",
+    "exhibit": "B",
+    "bates": "DB-SDNY-0004346",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "ENTITY",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 477,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 150000.0,
+    "date": "2016-02-03",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0005264",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 305,
     "entity_from": "PAUL V",
     "entity_to": "INDYKE",
@@ -4365,7 +5757,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 393,
@@ -4413,7 +5805,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 395,
@@ -4509,7 +5901,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 103,
@@ -4519,7 +5911,7 @@
     "date": "2018-10-11",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007651",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4533,7 +5925,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 397,
@@ -4581,7 +5973,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 246,
@@ -4605,7 +5997,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 194,
@@ -4629,7 +6021,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 417,
@@ -4701,7 +6093,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 399,
@@ -4749,7 +6141,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 400,
@@ -4776,6 +6168,54 @@
     "validation_tier": "FINCEN_RANGE_MATCH"
   },
   {
+    "id": 480,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 100000.0,
+    "date": "2017-11-13",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006739",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 479,
+    "entity_from": "Jeffrey Epstein (Non-DB Account)",
+    "entity_to": "Jeffrey Epstein NOW/SuperNow Account",
+    "amount": 100000.0,
+    "date": "2019-01-11",
+    "source": "verified_wires",
+    "exhibit": "C",
+    "bates": "DB-SDNY-0007924",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "PERSONAL",
+    "entity_to_type": "PERSONAL",
+    "flow_direction": "PASS-THROUGH",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
+  },
+  {
     "id": 346,
     "entity_from": "JPMORGAN",
     "entity_to": "JUN 14",
@@ -4797,7 +6237,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 223,
@@ -4821,7 +6261,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 193,
@@ -4845,7 +6285,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 125,
@@ -4855,7 +6295,7 @@
     "date": "11/17/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0004183",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4869,7 +6309,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 112,
@@ -4879,7 +6319,7 @@
     "date": "2019-01-10",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007924",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4893,7 +6333,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 81,
@@ -4903,7 +6343,7 @@
     "date": "2017-10-26",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0006594",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4917,7 +6357,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 35,
@@ -4927,7 +6367,7 @@
     "date": "2014-11-21",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004184",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4941,7 +6381,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 17,
@@ -4951,7 +6391,7 @@
     "date": "2014-05-14",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0003846",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -4965,7 +6405,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 317,
@@ -4989,7 +6429,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 180,
@@ -5013,7 +6453,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 214,
@@ -5037,7 +6477,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 378,
@@ -5061,7 +6501,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 358,
@@ -5085,7 +6525,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 357,
@@ -5109,7 +6549,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 344,
@@ -5133,7 +6573,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 107,
@@ -5143,7 +6583,7 @@
     "date": "2018-11-09",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007741",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5157,7 +6597,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 181,
@@ -5181,7 +6621,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 254,
@@ -5205,7 +6645,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 64,
@@ -5215,7 +6655,7 @@
     "date": "2016-02-02",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005201",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5229,7 +6669,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 161,
@@ -5253,7 +6693,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 376,
@@ -5277,7 +6717,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 315,
@@ -5301,7 +6741,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 313,
@@ -5325,7 +6765,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 216,
@@ -5349,7 +6789,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 312,
@@ -5373,7 +6813,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 298,
@@ -5397,7 +6837,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 292,
@@ -5421,7 +6861,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 310,
@@ -5445,7 +6885,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 131,
@@ -5455,7 +6895,7 @@
     "date": "12/13/2018",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0007798",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5469,7 +6909,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 110,
@@ -5479,7 +6919,7 @@
     "date": "2018-12-13",
     "source": "verified_wires",
     "exhibit": "D",
-    "bates": "",
+    "bates": "DB-SDNY-0007888",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5493,7 +6933,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 162,
@@ -5517,7 +6957,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 340,
@@ -5541,7 +6981,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 120,
@@ -5551,7 +6991,7 @@
     "date": "2019-04-02",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008180",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5565,7 +7005,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 73,
@@ -5575,7 +7015,7 @@
     "date": "2016-10-27",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005749",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5589,7 +7029,31 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
+  },
+  {
+    "id": 481,
+    "entity_from": "Gratitude America MMDA",
+    "entity_to": "Gratitude America (Checking)",
+    "amount": 50000.0,
+    "date": "2017-11-01",
+    "source": "verified_wires",
+    "exhibit": "E",
+    "bates": "DB-SDNY-0006739",
+    "is_date_recovery": 0,
+    "was_in_amount_dedup": 0,
+    "above_cap": 0,
+    "entity_from_type": "SHELL",
+    "entity_to_type": "SHELL",
+    "flow_direction": "INTERNAL MOVE",
+    "json_index": null,
+    "created_at": "2026-02-24 00:42:33",
+    "bank": null,
+    "tx_type": null,
+    "description": null,
+    "matched_pattern": null,
+    "bst_id": null,
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 309,
@@ -5613,7 +7077,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 299,
@@ -5637,7 +7101,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 293,
@@ -5661,7 +7125,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 236,
@@ -5685,7 +7149,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 109,
@@ -5695,7 +7159,7 @@
     "date": "2018-12-13",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007834",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5709,7 +7173,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 100,
@@ -5719,7 +7183,7 @@
     "date": "2018-09-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007561",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5733,7 +7197,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 91,
@@ -5743,7 +7207,7 @@
     "date": "2018-03-30",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007012",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5757,7 +7221,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 83,
@@ -5767,7 +7231,7 @@
     "date": "2017-12-20",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0006756",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5781,7 +7245,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 82,
@@ -5791,7 +7255,7 @@
     "date": "2017-12-11",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0006822",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5805,7 +7269,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 71,
@@ -5815,7 +7279,7 @@
     "date": "2016-10-07",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0005747",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5829,7 +7293,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 68,
@@ -5839,7 +7303,7 @@
     "date": "2016-07-14",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005605",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5853,7 +7317,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 62,
@@ -5863,7 +7327,7 @@
     "date": "2016-01-21",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005198",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5877,7 +7341,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 61,
@@ -5887,7 +7351,7 @@
     "date": "2016-01-07",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0005198",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -5901,7 +7365,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 182,
@@ -5925,7 +7389,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 163,
@@ -5949,7 +7413,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 183,
@@ -5973,7 +7437,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 367,
@@ -5997,7 +7461,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 347,
@@ -6021,7 +7485,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 186,
@@ -6045,7 +7509,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 368,
@@ -6069,7 +7533,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 215,
@@ -6093,7 +7557,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 143,
@@ -6117,7 +7581,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 164,
@@ -6141,7 +7605,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 145,
@@ -6165,7 +7629,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 401,
@@ -6213,7 +7677,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 280,
@@ -6237,7 +7701,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 93,
@@ -6247,7 +7711,7 @@
     "date": "2018-04-20",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0007110",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6261,7 +7725,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 224,
@@ -6285,7 +7749,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 229,
@@ -6309,7 +7773,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 372,
@@ -6333,7 +7797,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 402,
@@ -6381,7 +7845,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 282,
@@ -6405,7 +7869,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 115,
@@ -6415,7 +7879,7 @@
     "date": "2019-03-05",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008097",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6429,7 +7893,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 90,
@@ -6439,7 +7903,7 @@
     "date": "2018-02-28",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0006991",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6453,7 +7917,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 86,
@@ -6463,7 +7927,7 @@
     "date": "2018-01-23",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0006839",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6477,7 +7941,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 85,
@@ -6487,7 +7951,7 @@
     "date": "2018-01-16",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0006839",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6501,7 +7965,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 79,
@@ -6511,7 +7975,7 @@
     "date": "2017-10-02",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0006658",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6525,7 +7989,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 166,
@@ -6549,7 +8013,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 297,
@@ -6573,7 +8037,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 291,
@@ -6597,7 +8061,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 304,
@@ -6621,7 +8085,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 250,
@@ -6645,7 +8109,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 403,
@@ -6741,7 +8205,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 281,
@@ -6765,7 +8229,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 92,
@@ -6775,7 +8239,7 @@
     "date": "2018-04-02",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0007170",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6789,7 +8253,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 238,
@@ -6813,7 +8277,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 301,
@@ -6837,7 +8301,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 353,
@@ -6861,7 +8325,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 155,
@@ -6885,7 +8349,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 307,
@@ -6909,7 +8373,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 300,
@@ -6933,7 +8397,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 294,
@@ -6957,7 +8421,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 116,
@@ -6967,7 +8431,7 @@
     "date": "2019-03-05",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008097",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -6981,7 +8445,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 261,
@@ -7005,7 +8469,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 252,
@@ -7029,7 +8493,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 306,
@@ -7053,7 +8517,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 184,
@@ -7077,7 +8541,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 263,
@@ -7101,7 +8565,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 419,
@@ -7149,7 +8613,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 420,
@@ -7183,7 +8647,7 @@
     "date": "2018-09-05",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0007568",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7197,7 +8661,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 405,
@@ -7245,7 +8709,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 44,
@@ -7255,7 +8719,7 @@
     "date": "2015-06-03",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004665",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7269,7 +8733,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 37,
@@ -7279,7 +8743,7 @@
     "date": "2015-03-09",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004431",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7293,7 +8757,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 295,
@@ -7317,7 +8781,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 289,
@@ -7341,7 +8805,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 286,
@@ -7351,7 +8815,7 @@
     "date": "12/12/2016",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-0005667",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7365,7 +8829,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 273,
@@ -7389,7 +8853,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 146,
@@ -7413,7 +8877,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 104,
@@ -7423,7 +8887,7 @@
     "date": "2018-10-24",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0007652",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7437,7 +8901,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 99,
@@ -7447,7 +8911,7 @@
     "date": "2018-09-17",
     "source": "verified_wires",
     "exhibit": "E",
-    "bates": "",
+    "bates": "DB-SDNY-0007629",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7461,7 +8925,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 74,
@@ -7471,7 +8935,7 @@
     "date": "2016-12-02",
     "source": "verified_wires",
     "exhibit": "B",
-    "bates": "",
+    "bates": "DB-SDNY-0005882",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7485,7 +8949,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 168,
@@ -7509,7 +8973,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 274,
@@ -7533,7 +8997,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 240,
@@ -7557,7 +9021,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 269,
@@ -7581,7 +9045,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 258,
@@ -7605,7 +9069,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 283,
@@ -7629,7 +9093,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 121,
@@ -7639,7 +9103,7 @@
     "date": "2019-04-11",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008181",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7653,7 +9117,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 156,
@@ -7677,7 +9141,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 34,
@@ -7687,7 +9151,7 @@
     "date": "2014-11-14",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004183",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7701,7 +9165,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 9,
@@ -7711,7 +9175,7 @@
     "date": "2014-02-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003640",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7725,7 +9189,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 226,
@@ -7749,7 +9213,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 78,
@@ -7759,7 +9223,7 @@
     "date": "2017-07-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0006349",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7773,7 +9237,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 158,
@@ -7797,7 +9261,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 265,
@@ -7821,7 +9285,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 169,
@@ -7845,7 +9309,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 251,
@@ -7869,7 +9333,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 406,
@@ -7903,7 +9367,7 @@
     "date": "2019-03-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008099",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -7917,7 +9381,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 199,
@@ -7941,7 +9405,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 407,
@@ -7989,7 +9453,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 277,
@@ -8013,7 +9477,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 230,
@@ -8037,7 +9501,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 170,
@@ -8061,7 +9525,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 276,
@@ -8085,7 +9549,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 270,
@@ -8109,7 +9573,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 171,
@@ -8133,7 +9597,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 241,
@@ -8157,7 +9621,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 350,
@@ -8181,7 +9645,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 117,
@@ -8191,7 +9655,7 @@
     "date": "2019-03-05",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008097",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8205,7 +9669,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 200,
@@ -8229,7 +9693,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 271,
@@ -8253,7 +9717,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 242,
@@ -8277,7 +9741,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 11,
@@ -8287,7 +9751,7 @@
     "date": "2014-03-18",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0003709",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8301,7 +9765,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 341,
@@ -8325,7 +9789,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 348,
@@ -8349,7 +9813,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 201,
@@ -8373,7 +9837,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 266,
@@ -8397,7 +9861,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 187,
@@ -8421,7 +9885,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 119,
@@ -8431,7 +9895,7 @@
     "date": "2019-04-01",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008179",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8445,7 +9909,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 29,
@@ -8455,7 +9919,7 @@
     "date": "2014-10-15",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004127",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8469,7 +9933,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 27,
@@ -8479,7 +9943,7 @@
     "date": "2014-09-17",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0004074",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8493,7 +9957,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 172,
@@ -8517,7 +9981,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 122,
@@ -8527,7 +9991,7 @@
     "date": "2019-04-12",
     "source": "verified_wires",
     "exhibit": "C",
-    "bates": "",
+    "bates": "DB-SDNY-0008181",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -8541,7 +10005,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "VERIFIED"
   },
   {
     "id": 178,
@@ -8565,7 +10029,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 173,
@@ -8589,7 +10053,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 247,
@@ -8613,7 +10077,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 202,
@@ -8637,7 +10101,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 153,
@@ -8661,7 +10125,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 203,
@@ -8685,7 +10149,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 342,
@@ -8709,7 +10173,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 196,
@@ -8733,7 +10197,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 204,
@@ -8757,7 +10221,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 243,
@@ -8781,7 +10245,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 249,
@@ -8805,7 +10269,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 197,
@@ -8829,7 +10293,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 205,
@@ -8853,7 +10317,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 185,
@@ -8877,7 +10341,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 191,
@@ -8901,7 +10365,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 174,
@@ -8925,7 +10389,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 206,
@@ -8949,7 +10413,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 192,
@@ -8973,7 +10437,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 138,
@@ -8997,7 +10461,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 361,
@@ -9021,7 +10485,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 139,
@@ -9045,7 +10509,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 264,
@@ -9069,7 +10533,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 175,
@@ -9093,7 +10557,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 151,
@@ -9117,7 +10581,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 160,
@@ -9141,7 +10605,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 262,
@@ -9165,7 +10629,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 219,
@@ -9189,7 +10653,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 237,
@@ -9213,7 +10677,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 352,
@@ -9237,7 +10701,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 147,
@@ -9261,7 +10725,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 207,
@@ -9285,7 +10749,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 351,
@@ -9309,7 +10773,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 221,
@@ -9333,7 +10797,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 195,
@@ -9357,7 +10821,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 366,
@@ -9381,7 +10845,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 188,
@@ -9405,7 +10869,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 208,
@@ -9429,7 +10893,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 144,
@@ -9453,7 +10917,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 137,
@@ -9477,7 +10941,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 179,
@@ -9501,7 +10965,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 337,
@@ -9525,7 +10989,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 209,
@@ -9549,7 +11013,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 362,
@@ -9573,7 +11037,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 364,
@@ -9597,7 +11061,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 239,
@@ -9621,7 +11085,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 140,
@@ -9645,7 +11109,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 359,
@@ -9669,7 +11133,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 210,
@@ -9693,7 +11157,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 141,
@@ -9717,7 +11181,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 365,
@@ -9741,7 +11205,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 176,
@@ -9765,7 +11229,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 211,
@@ -9789,7 +11253,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 256,
@@ -9813,7 +11277,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 212,
@@ -9837,7 +11301,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 343,
@@ -9861,7 +11325,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 339,
@@ -9885,7 +11349,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 349,
@@ -9909,7 +11373,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "STRONG"
   },
   {
     "id": 255,
@@ -9933,7 +11397,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 123,
@@ -9943,7 +11407,7 @@
     "date": "5/21/2014",
     "source": "audited_PROVEN",
     "exhibit": "",
-    "bates": "",
+    "bates": "DB-SDNY-00038; DB-SDNY-0003833",
     "is_date_recovery": 1,
     "was_in_amount_dedup": 1,
     "above_cap": 0,
@@ -9957,7 +11421,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 253,
@@ -9981,7 +11445,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 360,
@@ -10005,7 +11469,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 245,
@@ -10029,7 +11493,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   },
   {
     "id": 363,
@@ -10053,7 +11517,7 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "MODERATE"
   },
   {
     "id": 248,
@@ -10077,6 +11541,6 @@
     "description": null,
     "matched_pattern": null,
     "bst_id": null,
-    "validation_tier": null
+    "validation_tier": "PROVEN"
   }
 ]
