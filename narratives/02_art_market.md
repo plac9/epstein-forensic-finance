@@ -6,13 +6,13 @@
 
 ---
 
-## Summary
+## What I Found
 
-The Haze Trust functioned as a collection point for art market proceeds before redistributing them through the broader Epstein shell network. I identified $18,974,417 (Unverified) in auction house proceeds flowing into The Haze Trust from Sotheby's and Christie's, followed by $49,727,941 (Unverified) in outflows from The Haze Trust to Southern Financial LLC and Southern Trust Company — the downstream entities in the 4-tier shell hierarchy.
+The Haze Trust collected art market proceeds and redistributed them through the shell network. I pulled $18,974,417 (Unverified) in auction house proceeds flowing into The Haze Trust from Sotheby's and Christie's, followed by $49,727,941 (Unverified) in outflows to Southern Financial LLC and Southern Trust Company — the downstream shells.
 
-This is documented on **Exhibit D** of the Deutsche Bank-SDNY production.
+It's on **Exhibit D** of the Deutsche Bank-SDNY production.
 
-## Inflows: The Auction Houses
+## The Auction Houses
 
 Two transactions brought art market proceeds into the Haze Trust:
 
@@ -23,11 +23,11 @@ Two transactions brought art market proceeds into the Haze Trust:
 
 **Total auction inflows: $18,974,417 (Unverified)**
 
-Both transactions deposited directly into The Haze Trust's checking account at Deutsche Bank. The timing — June and October 2017 — aligns with the major spring and fall auction seasons at both houses.
+Both went straight into the Haze Trust checking account at Deutsche Bank. June and October 2017 — spring and fall auction seasons.
 
-## Outflows: Into the Shell Network
+## Where It Went Next
 
-Once inside the Haze Trust, money moved downstream to Southern Financial LLC and Southern Trust Company Inc. I identified 8 outbound transfers from The Haze Trust:
+Once inside the Haze Trust, the money moved downstream. I found 8 outbound transfers:
 
 | Date | To | Amount (Unverified) | Source |
 |------|------|------|--------|
@@ -42,9 +42,9 @@ Once inside the Haze Trust, money moved downstream to Southern Financial LLC and
 
 **Total outflows to Southern entities: $49,727,941 (Unverified)**
 
-## Additional Haze Trust Inflows
+## Other Money Coming In
 
-Beyond the auction houses, the Haze Trust received transfers from Deutsche Bank that fed the same outflow pattern:
+Beyond the auction houses, the Haze Trust also got transfers from Deutsche Bank feeding the same outflow pattern:
 
 | Date | Amount (Unverified) | Source |
 |------|------|--------|
@@ -58,15 +58,15 @@ Beyond the auction houses, the Haze Trust received transfers from Deutsche Bank 
 
 An additional $58,328 arrived from HSBC Bank Bermuda Limited on December 13, 2018 (Exhibit D) — the only non-Deutsche Bank source feeding the Haze Trust.
 
-## What the Pattern Shows
+## What It Means
 
-The Haze Trust operated as a way-station. Art proceeds entered through an ostensibly legitimate channel — major auction houses with compliance departments — and then moved into the same Southern Trust / Southern Financial network that received money from every other major source in the Epstein financial structure.
+The Haze Trust was a way-station. Art money came in through a legitimate-looking channel — major auction houses with their own compliance departments — and moved straight into the same Southern Trust / Southern Financial network that received money from every other source in the Epstein financial structure.
 
-The timing gap is notable: auction proceeds arrived in mid-to-late 2017, but the outflows to Southern entities didn't begin until June 2018. The money sat in the Haze Trust for approximately 8-12 months before redistribution.
+Look at the timing. Auction proceeds arrived mid-to-late 2017. Outflows to Southern entities didn't start until June 2018. The money sat in the Haze Trust for 8–12 months before moving.
 
-The outflow amounts ($5M, $8M, $9M, $10M) are round numbers — consistent with deliberate transfer instructions rather than liquidation of specific positions.
+The outflow amounts — $5M, $8M, $9M, $10M — are all round numbers. That's not someone liquidating specific positions. That's someone giving instructions.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **What art was sold.** The wire transfers identify amounts and auction houses but not specific lots, artists, or buyers.
 - **Whether the art was legitimately acquired.** Provenance of the art itself is outside the scope of financial wire extraction.

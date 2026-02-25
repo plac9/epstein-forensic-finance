@@ -6,15 +6,15 @@
 
 ---
 
-## Summary
+## What I Found
 
-Jeepers Inc. was a Deutsche Bank brokerage entity that functioned as the primary capitalization vehicle for Jeffrey Epstein's personal NOW and SuperNow checking accounts. Between October 2013 and February 2019, I identified 24 wire transfers totaling $57,876,640 (Unverified) flowing from Jeepers Inc. through its Deutsche Bank brokerage account into Epstein's personal checking.
+Jeepers Inc. was a Deutsche Bank brokerage entity. Its job: capitalize Jeffrey Epstein's personal NOW and SuperNow checking accounts. Between October 2013 and February 2019, I pulled 24 wire transfers totaling $57,876,640 (Unverified) flowing from Jeepers through its Deutsche Bank brokerage account into Epstein's personal checking.
 
-Every single wire is documented on **Exhibit C** of the Deutsche Bank-SDNY production: "Capitalization of Jeffrey Epstein's NOW/SuperNow Accounts." Every single wire has a bates stamp. Every single wire has a date. This is the highest-confidence finding in the entire analysis.
+Every wire is on **Exhibit C** of the Deutsche Bank-SDNY production: "Capitalization of Jeffrey Epstein's NOW/SuperNow Accounts." Every wire has a bates stamp. Every wire has a date. This is the highest-confidence finding in the entire analysis.
 
 ## The Pipeline
 
-The mechanism was consistent across all 24 transfers: Jeepers Inc. held assets in a Deutsche Bank brokerage account, and periodically transferred large sums into Epstein's personal NOW/SuperNow checking accounts at the same bank. Three of the transfers moved money first from Jeepers Inc. (the entity) into the Jeepers Inc. DB Brokerage Account before the onward transfer — an internal staging step.
+Same mechanism every time. Jeepers Inc. held assets in a Deutsche Bank brokerage account and periodically moved large sums into Epstein's personal NOW/SuperNow checking at the same bank. Three of the transfers moved money first from Jeepers Inc. (the entity) into the Jeepers Inc. DB Brokerage Account before the onward transfer — an internal staging step.
 
 | Date | Amount (Unverified) | Bates Reference |
 |------|------|------|
@@ -45,15 +45,15 @@ The mechanism was consistent across all 24 transfers: Jeepers Inc. held assets i
 
 **Total: $57,876,640 (Unverified) across 24 wires.**
 
-## What the Pattern Shows
+## What It Means
 
-The cadence tells a story. From October 2013 through October 2015, transfers arrived like clockwork — monthly or near-monthly, in round amounts between $2M and $4M. This is consistent with systematic liquidation of brokerage positions to fund operating expenses through the checking accounts.
+Look at the cadence. From October 2013 through October 2015, transfers arrived like clockwork — monthly or near-monthly, in round amounts between $2M and $4M. Brokerage positions liquidated into cash on a schedule.
 
-The bates numbers are sequential (DB-SDNY-0002926 through DB-SDNY-0008016), confirming these were produced as a coherent set from Deutsche Bank's records. The sequential bates stamps also confirm there are no gaps in the exhibit — I captured every wire on Exhibit C that involved Jeepers Inc.
+The bates numbers run sequential (DB-SDNY-0002926 through DB-SDNY-0008016), which tells me these were produced as a coherent set from Deutsche Bank's records. No gaps in the exhibit — I got every wire on Exhibit C that involved Jeepers Inc.
 
-After October 2015, the cadence slows dramatically. Two transfers in late 2016, then nothing until a single $3,276,640 transfer on February 7, 2019 — five months before Epstein's arrest on July 6, 2019.
+After October 2015, the cadence breaks. Two transfers in late 2016, then nothing until a single $3,276,640 transfer on February 7, 2019 — five months before Epstein's arrest on July 6, 2019.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 This analysis traces the pipeline — money flowing from Jeepers Inc. brokerage into Epstein's personal checking. What I cannot determine from the EFTA corpus:
 

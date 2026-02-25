@@ -6,11 +6,11 @@
 
 ---
 
-## Summary
+## What I Found
 
-The Epstein financial network was built on a layered trust structure. Money entered through external sources (Leon Black, Benjamin de Rothschild, Tudor Futures Fund, Narrow Holdings, auction houses), passed through intermediate shells (The Haze Trust, Southern Trust Company, Southern Financial LLC), and ultimately reached operational entities or personal accounts. I mapped 67 wire transfers totaling $312,796,381 (Unverified) moving through this network.
+The network ran on layers. Money came in from external sources — Leon Black, Benjamin de Rothschild, Tudor Futures Fund, Narrow Holdings, auction houses. It passed through intermediate shells — Haze Trust, Southern Trust, Southern Financial. Then it reached operational entities or personal accounts. I mapped 67 wire transfers totaling $312,796,381 (Unverified) moving through this structure.
 
-The same structure that makes this network worth studying also makes it dangerous to count. A single $10 million wire that moves from an external source → Southern Trust → Southern Financial → Haze Trust → personal account is one $10 million transfer — but a naive extraction pipeline would count it as four separate $10 million transfers, inflating the total to $40 million. This is the chain-hop problem, and it is the single most important methodological challenge in this entire analysis.
+The same structure that makes this worth studying makes it dangerous to count. A single $10 million wire that moves from an external source → Southern Trust → Southern Financial → Haze Trust → personal account is one $10 million transfer — but a naive extraction pipeline would count it as four separate $10 million transfers, inflating the total to $40 million. That's the chain-hop problem. It's the single biggest methodological challenge in this whole analysis.
 
 ## The 4-Tier Structure
 
@@ -58,11 +58,11 @@ One method I used to identify potential chain-hops was looking for identical dol
 
 I did not automatically remove these matches. Each was reviewed in the context of dates (when available), source documents, and entity classifications before determining whether it was a legitimate separate transfer or a chain-hop duplicate.
 
-## What I Cannot Determine
+## What I Can't Determine
 
-- **Complete flow paths end-to-end.** I can see individual wire segments, but the EFTA corpus does not always provide enough date precision to chain segment A → B → C → D into a single traced path.
-- **Whether all shell-to-shell transfers are internal movements.** Some may represent genuine economic transactions between related-but-distinct legal entities.
-- **The net economic reality.** Wire transfers show gross flows. Offsetting positions, returns of capital, and loan repayments would reduce the net amount but are not distinguishable from one-way transfers in the wire data alone.
+- **Complete flow paths end-to-end.** I can see individual wire segments. But the EFTA corpus doesn't always give me enough date precision to chain segment A → B → C → D into one traced path.
+- **Whether all shell-to-shell transfers are internal movements.** Some may be genuine transactions between related-but-distinct legal entities.
+- **The net economic reality.** Wires show gross flows. Offsetting positions, returns of capital, and loan repayments would shrink the net — but they look the same as one-way transfers in wire data.
 
 ---
 

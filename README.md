@@ -19,14 +19,14 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 
 ## 📌 Start Here
 
-### 🔺 New: One-Way Money
+### 🔺 New: Offshore Architecture
 
-> I ran a balance sheet across all eight banking institutions, all 481 wires, all $558 million. **$272 million entered from external sources. $63 million is visible leaving. $209 million has no documented exit in any production from any institution.** This is the first multi-institution balance sheet ever published on the Epstein shell network.
+> DOJ subpoena names a BVI shell company. ICIJ Offshore Leaks confirms it — Scouting International, incorporated in Tortola, 2003, now defunct. Three databases cross-referenced: DOJ EFTA corpus, ICIJ Offshore Leaks, and the verified wire ledger. **172 documents, 8,526 pages, and a corporate structure that connects Jean-Luc Brunel to the same offshore jurisdiction the money transited.**
 >
-> **→ [Read Narrative 17](narratives/17_the_architecture.md)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html" target="_blank">Interactive Visualization</a>**
+> **→ [Read Narrative 18](narratives/18_offshore_architecture.md)** · **[One-Way Money (N17)](narratives/17_the_architecture.md)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html" target="_blank">Interactive Visualization</a>**
 
 
-> **18 data narratives** reconstruct how $1.964 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
+> **18 data narratives** reconstruct how $2.146 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
 >
 > **→ [Read the Data Narratives](narratives/)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/shell_network.html" target="_blank">Explore the Interactive Network</a>** · **<a href="https://docs.google.com/spreadsheets/d/11lw0QjMZ-rYIjWesv5VG1YKts57ahPEm/edit?usp=sharing&ouid=103970896670138914877&rtpof=true&sd=true" target="_blank">View the Forensic Workbook</a>**
 
@@ -55,7 +55,7 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 
 ## The Database
 
-**8.03 GB | 33 tables | 26.6 million rows | 19 datasets**
+**8.03 GB | 36 tables | 26.6 million rows | 19 datasets**
 
 | Metric | This Project | Largest Narrative Repo | Largest Search Platform | Others |
 |--------|:------------:|:----------------------:|:----------------------:|:------:|
@@ -67,10 +67,10 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 | **Financial transactions modeled** | **81,451** (tiered) + **23,832** (directional) | ~186 normalized | 0 | 0 |
 | **Directional fund flows (A→B)** | **23,832** | qualitative | 0 | 0 |
 | **Wire transfers in master ledger** | **481** (Phase 5I audited) | 0 | 0 | 0 |
-| **Relational database tables** | **33** | 3-4 | — | — |
+| **Relational database tables** | **36** | 3-4 | — | — |
 | **Confidence-tiered scoring** | ✅ 5-axis | — | — | — |
 | **Redaction proximity analysis** | ✅ | ✅ (different method) | — | — |
-| **SAR cross-validation** | ✅ **104.6%** | — | — | — |
+| **SAR cross-validation** | ✅ **104.4%** | — | — | — |
 | **Multi-phase dedup pipeline** | ✅ 3-stage evolution | — | — | — |
 | **Shell hierarchy mapping** | ✅ 4-tier | — | — | — |
 
@@ -84,9 +84,10 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 
 | Metric | Value |
 |--------|-------|
-| **Total Financial Activity Extracted** | **$1,964,229,742** (Unverified) |
+| **Publication Ledger Total** | **$2,146,000,000** (6,310 unique transactions) |
 | **FinCEN SAR Benchmark** | $1,878,000,000 |
-| **Extraction Coverage** | **104.6%** |
+| **T1–T3 Coverage of SAR** | **104.4%** ($1,960,600,000) |
+| **Payment Types Classified** | 10 |
 | **Wire Transfers in Master Ledger** | 481 |
 | **Unique Entities (Entity-Resolved)** | 228 |
 | **Bank Coverage** | 14 banks |
@@ -95,17 +96,20 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 | **Shell Trust Hierarchy Tiers Mapped** | 4 |
 | **Contamination Bugs Caught & Fixed** | 9 |
 
-### Three-Tier Confidence Framework
+### Four-Tier GAGAS-Aligned Confidence Framework
 
-| Tier | Amount (Unverified) | % of SAR | What's Included | Duplication Risk |
-|------|-------:|----------|-----------------|------------------|
-| **Conservative** | $1,843,653,804 | 98.2% | v2-20 amount-unique + Phase 23 date recovery | Zero |
-| **Publication** ★ | $1,964,229,742 | 104.6% | Tier 1 + 8 above-cap court-verified wires | Zero — all exhibit-verified |
-| **Expanded** | $1,956,153,971 | 104.2% | Tier 2 + PROVEN entity expansion | Minor name overlap risk |
+| Tier | Classification | Amount | % of Total |
+|------|---------------|-------:|:----------:|
+| **T1** | Epstein-Controlled Entities | $1,610,000,000 | 75.0% |
+| **T2** | Known Associates | $343,000,000 | 16.0% |
+| **T3** | Extended Network | $7,600,000 | 0.4% |
+| **T4** | Unclassified | $185,000,000 | 8.6% |
+| **T1–T3** | **Auditable Subtotal** | **$1,960,600,000** | **104.4% of SAR** |
+| **Total** | **Publication Ledger** | **$2,146,000,000** | — |
 
-### Why the Total Exceeds 100%
+### Why T1–T3 Exceeds 100%
 
-The SAR benchmark ($1.878B) represents only transactions banks flagged as **suspicious**. The EFTA corpus contains the **complete** financial record — including legitimate, non-suspicious transactions such as Sotheby's auction proceeds ($11.2M), Tudor Futures investment returns ($12.8M), Kellerhals law firm settlements ($23M), and Blockchain Capital VC investments ($10.5M). Total financial flows **should** exceed the suspicious subset. Standard forensic accounting: SAR ⊂ Total Financial Activity.
+The SAR benchmark ($1.878B) represents only transactions banks flagged as **suspicious**. The EFTA corpus contains the **complete** financial record — including legitimate, non-suspicious transactions such as Sotheby's auction proceeds ($11.2M), Tudor Futures investment returns ($12.8M), Kellerhals law firm settlements ($23M), and Blockchain Capital VC investments ($10.5M). Total financial flows **should** exceed the suspicious subset. Standard forensic accounting: SAR ⊂ Total Financial Activity. The T4 (Unclassified) tier is excluded from the SAR comparison because those transactions lack sufficient entity resolution for classification.
 
 ---
 
@@ -162,22 +166,26 @@ All amounts are (Unverified) automated extractions. See [FINDINGS.md](docs/FINDI
 
 ---
 
-## Database Schema (33 Tables)
+## Database Schema (36 Tables)
 
 > See full database architecture diagram: **[SCHEMA.md](docs/SCHEMA.md)**
 
-This is not a search index. This is a relational forensic database. **8.03 GB, 33 tables, 26.6 million rows.**
+This is not a search index. This is a relational forensic database. **8.03 GB, 36 tables, 26.6 million rows.**
 
-**Financial Analysis (10 tables)**
+**Financial Analysis (13 tables)**
+- `publication_ledger` — 6,310 deduplicated transactions ($2.146B) with four-tier GAGAS classification (T1–T4), payment type, source exhibit
 - `fund_flows` — 23,832 directional money movements (entity_from → entity_to, amount, date, confidence)
 - `fund_flows_audited` — 7,355 classified flows (5-tier: PROVEN/STRONG/MODERATE/WEAK/VERY_WEAK) with FinCEN/ICIJ match flags, composite scoring, entity classification
 - `verified_wires` — 185 court-exhibit authenticated wire transfers (dates, bates numbers, exhibits)
+- `verified_bank_statements` — 1,202 multi-bank statement transactions from 13 institutions with statement dates and balance context
 - `financial_hits` — 81,451 financial content extractions across 19 categories and 3 verification tiers (C1/C2/C3)
 - `financial_redactions` — 2,395 recovered dollar amounts near redaction markers with confidence scoring
 - `fincen_transactions` — 4,507 FinCEN suspicious activity report transaction records
 - `fincen_bank_connections` — 5,498 bank-to-bank SAR relationship mappings
 - `entity_aliases` — 186 raw text → canonical name resolution rules
 - `entity_roles` — 74 classified entities with total inflow, outflow, net position, wire counts, and exhibit references
+- `payment_type_registry` — 10 classified payment types (wire, CHIPS, SWIFT, bank statement, check, etc.)
+- `dedup_audit_log` — Deduplication decision trail for publication ledger assembly
 
 **Entity Intelligence (3 tables)**
 - `entities` — 11,438,134 extracted entities with NLP classification (PERSON, ORG, GPE, MONEY, NORP, FAC, LOC, LAW)
@@ -228,9 +236,12 @@ Phase 5D   Payment-Travel-Victim Correlation → temporal pattern analysis
 Phase 5E   Redaction Map → navigational tool for document analysis
 Phases 14-24  Wire Transfer Extraction Pipeline → 382-wire ledger, $1.964B
 Phase 5I   Entity Resolution & Bank Expansion → 481-wire ledger, $973M entity-resolved, 14-bank coverage
+Phase 5J   Multi-Bank Statement Parser → 1,202 verified transactions from 13 banks
+Phase 5K   Payment Type Expansion → CHIPS, SWIFT, checks, bank statements beyond wire transfers
+Phase 5L   Publication Ledger Assembly → 6,310 unique transactions, $2.146B, four-tier GAGAS framework
 ```
 
-### Wire Transfer Extraction Pipeline (Phases 14–5I)
+### Financial Extraction Pipeline (Phases 14–5L)
 
 | Phase | What Happened | Impact |
 |-------|--------------|--------|
@@ -244,6 +255,9 @@ Phase 5I   Entity Resolution & Bank Expansion → 481-wire ledger, $973M entity-
 | 24 | Above-cap verified wires + bank custodian audit | +$121M / -$113M |
 | 25 | Date recovery from source context fields | +75 dates (31.9%→51.6%), 0 collisions |
 | **5I** | **Entity resolution: 481 wires, 228 entities, 14 banks, 51% Bates coverage** | **$973M entity-resolved** |
+| 5J | Multi-bank statement parser: 1,202 transactions from 13 institutions | +$430K verified statements |
+| 5K | Payment type expansion: CHIPS, SWIFT, checks, bank statements | 10 payment types classified |
+| **5L** | **Publication ledger: 6,310 unique transactions, four-tier GAGAS, T1–T3 = 104.4% SAR** | **$2.146B total** |
 
 Full phase-by-phase details: **[METHODOLOGY.md](docs/METHODOLOGY.md)**
 
@@ -327,13 +341,15 @@ Source workbook: **[Forensic Workbook](https://docs.google.com/spreadsheets/d/11
 │   ├── COMPLIANCE.md                      ← Professional standards, GAAS conformance, legal disclaimers
 │   ├── SCHEMA.md                          ← Database architecture diagram
 │   ├── NETWORK.md                         ← Trust network flow diagram
-│   └── SOURCE_APPENDIX_TEMPLATE.md        ← Standard template for future narratives (N17+)
+│   └── SOURCE_APPENDIX_TEMPLATE.md        ← Standard template for source appendices
 ├── narratives/                            ← 18 forensic data narratives with source appendices
 ├── data/
-│   ├── master_wire_ledger_phase5i.json    ← 481 wires (publication dataset)
+│   ├── publication_ledger_phase5l.json    ← 6,310 transactions, four-tier (publication dataset)
+│   ├── master_wire_ledger_phase5i.json    ← 481 wires (wire-specific subset)
 │   └── entity_classification.json         ← Entity → type mapping (228 entities)
 ├── visualizations/                        ← Interactive shell network diagram
 └── tools/
+    ├── narrative_sql_tools.py             ← SQL query functions for all 18 narrative data sources
     ├── linkify_efta.py                    ← Auto-link EFTA IDs → DOJ PDFs in .md files
     ├── convert_links_new_tab.py           ← Convert external links to target="_blank"
     ├── inject_efta_source_table.py        ← Add source document tables to narratives
@@ -342,14 +358,14 @@ Source workbook: **[Forensic Workbook](https://docs.google.com/spreadsheets/d/11
 
 ### Visual Guides
 
-- **[SCHEMA.md](docs/SCHEMA.md)** — Full database architecture showing how 33 tables, 11.4M entities, and 1.48M files feed into the 481-wire master ledger
+- **[SCHEMA.md](docs/SCHEMA.md)** — Full database architecture showing how 36 tables, 11.4M entities, and 1.48M files feed into the 6,310-transaction publication ledger
 - **[NETWORK.md](docs/NETWORK.md)** — Annotated trust network flow diagram with dollar amounts on every edge
 
-### Forensic Workbook v7 (14 Tabs)
+### Forensic Workbook v9
 
 | Tab | Name | Description |
 |:---:|------|-------------|
-| 1 | Executive Summary | Headline $1.964B (Unverified), three-tier framework, why >100% |
+| 1 | Executive Summary | Headline $2.146B, four-tier GAGAS framework, publication ledger |
 | 2 | Extraction Phases | Full pipeline with running totals, bug fixes color-coded |
 | 3 | **Money Flow Patterns** | Every wire classified: MONEY IN / INTERNAL MOVE / MONEY OUT |
 | 4 | **Shell Trust Hierarchy** | 4-tier network with actual dollar flows per entity |
@@ -454,9 +470,11 @@ The underlying DOJ documents are U.S. government publications in the public doma
 | Feb 21 | Wire extraction pipeline (Phases 14-24): $1.964B, 104.6% SAR coverage |
 | Feb 21 | Forensic workbook v6.1 published (11 tabs, 382-wire master ledger) |
 | Feb 21 | Phase 25: Date recovery from context fields — 75 dates (31.9%→51.6%), 0 collisions (credit: u/miraculum_one) |
-| Feb 22 | Repository made public. 18 Data Narratives published. 30 GitHub stars in 5 hours |
+| Feb 22 | Repository made public. 17 Data Narratives published. 30 GitHub stars in 5 hours |
 | Feb 24 | Phase 5I: 481 wires, $973M entity-resolved, 228 entities, 14-bank coverage, 51% Bates |
 | Feb 24 | Workbook v7 published (14 tabs). Full database audit: 33 tables, 8.03GB, 26.6M rows |
 | Feb 25 | Phase 5J: Multi-bank statement parser. 1,202 verified transactions from 13 banks ($430K) |
 | Feb 25 | Workbook v8 (19 tabs). N18 published. JSON v26 community dataset. |
+| Feb 25 | Phase 5K–5L: Payment type expansion + publication ledger assembly. 6,310 unique transactions, $2.146B, four-tier GAGAS framework |
+| Feb 25 | Workbook v9. Narratives updated to v9 voice. 18 data narratives live. |
 | Ongoing | Additional data narratives and follow-on analysis |

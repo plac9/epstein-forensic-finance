@@ -6,13 +6,13 @@
 
 ---
 
-## What Benford's Law Tests
+## What This Test Does
 
-In naturally occurring financial datasets — sales figures, tax returns, stock prices, expense reports — the leading digit is not uniformly distributed. The digit "1" appears first approximately 30.1% of the time, "2" appears 17.6%, "3" appears 12.5%, and so on, with "9" appearing only 4.6%. This pattern, called Benford's Law, holds across six orders of magnitude and has been validated on datasets from population counts to river lengths to nuclear decay rates.
+In normal financial data — sales, taxes, stock prices, expenses — the leading digit isn't uniformly distributed. The digit "1" appears first approximately 30.1% of the time, "2" appears 17.6%, "3" appears 12.5%, and so on, with "9" appearing only 4.6%. This pattern, called Benford's Law, holds across six orders of magnitude and has been validated on datasets from population counts to river lengths to nuclear decay rates.
 
-Forensic accountants use Benford's Law because fabricated or manipulated financial data tends to deviate from this distribution. Round-number fabrication — inventing figures like $5,000,000 instead of $4,837,216 — over-represents certain leading digits and suppresses others.
+Forensic accountants use Benford's Law because fabricated data deviates from this distribution. Invent round numbers like $5,000,000 instead of $4,837,216 and you skew the digits.
 
-I applied this test to 185 verified wire transfers totaling $557 million from the Deutsche Bank-SDNY production (Exhibits A–E).
+I ran it on 185 verified wire transfers totaling $557 million from the Deutsche Bank-SDNY production (Exhibits A–E).
 
 ## The Results
 
@@ -28,11 +28,11 @@ I applied this test to 185 verified wire transfers totaling $557 million from th
 | 8 | 5.1% | 3.8% | −1.3 | 7 |
 | 9 | 4.6% | 1.6% | −3.0 | 3 |
 
-Digits 2 and 5 are massively over-represented. Digit 2 appears 29.7% of the time against an expected 17.6% — a 12.1-point deviation. Digit 5 appears 18.4% against an expected 7.9% — a 10.5-point deviation. Meanwhile, digits 4 and 6 are effectively absent (2.7% each against expected ~9.7% and ~6.7%).
+Digits 2 and 5 are way over-represented. Digit 2 appears 29.7% of the time against an expected 17.6% — a 12.1-point deviation. Digit 5 appears 18.4% against an expected 7.9% — a 10.5-point deviation. Meanwhile, digits 4 and 6 are effectively absent (2.7% each against expected ~9.7% and ~6.7%).
 
 ## Why It Fails
 
-The first-two-digit analysis reveals the cause:
+The first-two-digit breakdown tells you exactly why:
 
 | First Two Digits | Count | % of All Wires | Common Amounts |
 |-----------------|-------|----------------|----------------|
@@ -57,7 +57,7 @@ Four two-digit prefixes — 50, 10, 20, 25 — account for **55.3% of all wires*
 
 **84.3% of all wire transfers are exact round numbers.** Only 29 of 185 wires — 15.7% — have amounts that are not round to the nearest thousand dollars.
 
-In normal commercial banking activity, round-number wire transfers typically constitute 30–50% of volume (businesses pay invoices, settle contracts, and process payroll at precise amounts). An 84.3% round-number rate is characteristic of discretionary transfers — money moved by instruction rather than by obligation.
+Normal commercial banking runs 30–50% round numbers. Businesses pay invoices and process payroll at precise amounts. An 84.3% round-number rate means this money was moved by instruction, not by obligation.
 
 ## What Each Exhibit Looks Like
 
@@ -95,7 +95,7 @@ The exhibit-level analysis reinforces this interpretation:
 
 The round-number problem is not that the transfers are fake. It is that they are the financial signature of a system where one person controlled all the money. There are no invoices, no contracts, no market prices generating these amounts. There is only instruction: move this much, to this account, today. In a normal financial ecosystem, hundreds of independent actors produce Benford-conforming variety. In the Epstein system, one decision-maker produced round numbers.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **Whether any specific round-number transfer was deliberately structured to avoid reporting thresholds.** The absence of $9,999 transfers (just below the $10,000 CTR reporting threshold) suggests this was not a structuring operation. The amounts are too large for BSA structuring concerns.
 - **Whether the Benford deviation would be significant in a larger sample.** With n=185, the chi-squared test has limited power. A sample of 1,000+ wire transfers would produce more reliable Benford statistics.

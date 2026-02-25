@@ -6,13 +6,13 @@
 
 ---
 
-## Summary
+## What I Found
 
-Gratitude America was structured as a charitable entity. I identified 20 wire transfers totaling $13,080,518 (Unverified) involving Gratitude America across the master ledger. The wire-level breakdown of where Gratitude America's money went tells a clear story: the vast majority of outflows went to investment and bank accounts, while actual charitable disbursements were minimal.
+Gratitude America was a charity — on paper. I pulled 20 wire transfers totaling $13,080,518 (Unverified). Where'd the money go? Investment and bank accounts got almost everything. Actual charity got almost nothing.
 
-This finding is documented on **Exhibit E** of the Deutsche Bank-SDNY production.
+It's on **Exhibit E** of the Deutsche Bank-SDNY production.
 
-## Outflows: Where the Money Went
+## Where the Money Went
 
 ### Investment and Banking Transfers
 
@@ -46,7 +46,7 @@ The $5M transfer on March 2, 2016 is the single largest disbursement — sent fr
 
 **Total charitable: $453,493 (Unverified)**
 
-## Inflows: Where the Money Came From
+## Where the Money Came From
 
 | Date | From | Amount (Unverified) |
 |------|------|------|
@@ -57,7 +57,7 @@ The $5M transfer on March 2, 2016 is the single largest disbursement — sent fr
 
 **Total visible inflows from Deutsche Bank: $877,025 (Unverified)**
 
-The visible inflows ($877K) are far less than the visible outflows ($12.2M), indicating that Gratitude America's primary funding came from sources not captured in the wires I extracted — likely internal transfers, investment returns, or deposits that predate the EFTA document window.
+Visible inflows: $877K. Visible outflows: $12.2M. The gap means Gratitude America's main funding came from sources I didn't capture in the wires — probably internal transfers, investment returns, or deposits predating the document window.
 
 ## The Ratio
 
@@ -69,7 +69,7 @@ Based on the wire transfers I extracted:
 | Charitable grants | $453,493 | 3.4% |
 | Other/unclassified | $877,025 | — |
 
-**For every dollar Gratitude America sent to charity, it sent roughly $26 to investment accounts.**
+**For every dollar sent to charity, $26 went to investment accounts.**
 
 The three charitable recipients — Melanoma Research Alliance Foundation, Bruce & Marsha Moskowitz Foundation, and Cancer Research Wellness Institute — received between $10,000 and $225,000 each. The Lithuanian ballet entities (NPO Baleto Teatras and VSJ Baleto Teatras) received a combined $28,493.
 
@@ -77,7 +77,7 @@ The three charitable recipients — Melanoma Research Alliance Foundation, Bruce
 
 The largest single destination for Gratitude America's outflows was "Gratitude America Ltd." at Morgan Stanley — receiving $5,500,000 across 2 wires. This is a separate legal entity from the MMDA account that held the charity's liquid assets. The relationship between "Gratitude America MMDA" (the Deutsche Bank money market account) and "Gratitude America Ltd." (the Morgan Stanley investment vehicle) warrants further examination.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **Gratitude America's full financial picture.** I see wire transfers, not bank statements. The charity may have had additional grant-making through checks, ACH transfers, or other mechanisms not captured in wire data.
 - **The investment returns.** If the Morgan Stanley account generated returns that were later distributed to charitable purposes, the effective charitable ratio would be higher than what the wire data alone shows.

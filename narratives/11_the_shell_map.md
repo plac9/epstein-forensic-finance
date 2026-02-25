@@ -14,9 +14,9 @@
 
 Narratives 1–6 mapped wire transfers through seven shell entities: Southern Trust Company, Southern Financial LLC, The Haze Trust, Gratitude America Ltd., Jeepers Inc., Plan D LLC, and BV70 LLC. These were the entities that appeared in the Deutsche Bank-SDNY wire production (Exhibits A–E). Together, they anchor the 481-wire master ledger totaling $973 million. Narrative 7 correlated those wires against flight records. Narratives 8–9 scanned the corpus for who bridges the financial and victim document universes. Narrative 10 tested the wire amounts against Benford's Law.
 
-That body of work answered the question: *what did the wire transfers show?*
+That work answered one question: *what did the wire transfers show?*
 
-This narrative asks a different question: *what else is there?*
+This one asks a different question: *what else is there?*
 
 ## Why Only Deutsche Bank
 
@@ -43,9 +43,9 @@ The shells that appear in hundreds of financial documents but zero wire transfer
 
 ## What the Corpus Shows
 
-I searched 11.4 million entity records for every corporate entity (Trust, LLC, Inc, LP, Ltd) that appears in financial documents alongside "Epstein." Then I measured how many documents each entity appears in, what types of documents they are, and which shells appear together in the same files.
+I searched 11.4 million entity records for every corporate entity — trusts, LLCs, LPs — that shows up in financial documents alongside "Epstein." Counted documents per entity. Counted what types. Mapped which shells appear together in the same files.
 
-The search returned 14 distinct entities. The wire ledger captured 7 of them. The other 7 have never been analyzed.
+The search returned 14 distinct entities. The wire ledger captured 7. The other 7 have never been analyzed.
 
 ## The Complete Shell Network
 
@@ -120,13 +120,13 @@ The co-occurrence map reveals a hub-and-spoke architecture, not a linear pipelin
 
 The wire transfer ledger — 481 verified wires totaling $973 million — represents the entity-resolved master ledger extracted from the full EFTA corpus. The shell network is larger than what any single subpoena captured.
 
-**Financial Trust Company** has 325 financial document appearances and zero wire transfers. Whatever moved through it — checks, ACH transfers, brokerage settlements, trust distributions — was not captured in the SDNY wire production. Yet it connects to Jeepers (125 shared files), Southern Trust (92), and Southern Financial (81). It is central to the financial infrastructure.
+**Financial Trust Company** has 325 financial document appearances and zero wire transfers. Whatever moved through it — checks, ACH transfers, brokerage settlements, trust distributions — never hit the SDNY wire production. But it connects to Jeepers (125 shared files), Southern Trust (92), and Southern Financial (81). Central to the financial infrastructure.
 
 **Outgoing Money Trust** has 180 financial documents. Its name is its function. It has zero connections to the legal record (no court filings, no emails, no letters). It exists exclusively in the financial documentation.
 
 **Insurance Trust** has 7,800 money-entity mentions across 111 files — an average of 70 dollar amounts per document. For comparison, Southern Trust averages 89 per file across its 883 total files. The Insurance Trust is processing money at comparable density but in a fraction of the documents.
 
-**Butterfly Trust** has 3,302 money mentions across 150 files and connects to Southern Trust (61), Southern Financial (55), HBRK (37), and Haze Trust (30). It is integrated into the network but serves an undetermined purpose.
+**Butterfly Trust** has 3,302 money mentions across 150 files and connects to Southern Trust (61), Southern Financial (55), HBRK (37), and Haze Trust (30). Integrated into the network. Purpose undetermined.
 
 ## The Scale
 
@@ -134,7 +134,7 @@ The wire ledger documented $973 million through 7 of these 14 entities. The corp
 
 We mapped the rivers. The corpus shows there are also streams, creeks, and underground channels. The financial network was not four entities and a wire ledger. It was fourteen entities, connected through 13,000+ emails, hundreds of financial documents, and money references that no single subpoena captured in full.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **The dollar volume flowing through untracked shells.** Money-entity mentions count the number of times a dollar amount appears near a shell name — not the total amount. A single bank statement with 50 line items generates 50 mentions. I cannot sum these without parsing each amount individually.
 - **The function of Butterfly Trust, Outgoing Money Trust, or Insurance Trust.** Document summaries are largely empty for these entities. Their purpose must be determined from the source documents themselves.

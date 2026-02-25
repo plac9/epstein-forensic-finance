@@ -6,13 +6,13 @@
 
 ## The Setup
 
-Gratitude America, Ltd. appears in 209 documents in the EFTA corpus. Eighty-nine are financial records. It holds $45 million in verified wire transfers in our Deutsche Bank ledger. By every measure, it operated as a functioning financial entity within the Epstein shell network.
+209 documents in the EFTA corpus. 89 are financial records. $45 million in verified wire transfers on my Deutsche Bank ledger. By every measure, a functioning financial entity.
 
-It was registered as a **tax-exempt charity**.
+Registered as a **tax-exempt charity**.
 
 ## Where the Money Actually Went
 
-Our co-occurrence analysis of Gratitude America's 89 financial documents against known investment fund entities produces the following outflow profile:
+My co-occurrence analysis of Gratitude America's 89 financial documents against known investment fund entities produces the following outflow profile:
 
 ### Investment Vehicles
 
@@ -44,9 +44,9 @@ Our co-occurrence analysis of Gratitude America's 89 financial documents against
 | Florida Science Foundation | 2 |
 | Epstein VI Foundation — Equities | 2 |
 
-The investment vehicles appear on approximately **~90 financial files** (accounting for documents shared across multiple funds). The charitable entities appear on approximately **~18 files**.
+Investment vehicles show up on roughly 90 financial files. Charitable entities show up on about 18.
 
-That is an **83% investment / 17% charitable** split by document frequency on the financial records where outflow entities co-occur with Gratitude America.
+That's an 83/17 split. Eighty-three percent investment, seventeen percent charitable.
 
 ## The Money Scale
 
@@ -74,7 +74,7 @@ The dollar amounts extracted from Gratitude America's financial documents are no
 | $25,000 | 88 |
 | $10,000 | 58 |
 
-The most frequently occurring transaction amounts are $2 million, $5 million, $2.5 million, and $3 million. A charity making grants to a Lithuanian ballet company and a cancer research institute does not generate this transaction profile. An investment fund making capital calls and redemptions does.
+The most common amounts are $2 million, $5 million, $2.5 million, and $3 million. A charity writing checks to a Lithuanian ballet company doesn't generate that profile. An investment fund making capital calls does.
 
 ## The Name on the Records
 

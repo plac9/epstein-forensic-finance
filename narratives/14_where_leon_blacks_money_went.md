@@ -1,16 +1,16 @@
 # Narrative 14: Where Leon Black's Money Went
 
-**Leon Black's entities paid Jeffrey Epstein approximately $158–170 million. Our wire ledger independently verified $60.5 million of that total. Our analysis traces the downstream flow through every shell in the network — into Apollo Management, Elysium, Coatue, Boothbay, Honeycomb, Valar, and back to Black's own family office.**
+**Leon Black's entities paid Jeffrey Epstein approximately $158–170 million. My wire ledger independently verified $60.5 million of that total. My analysis traces the downstream flow through every shell in the network — into Apollo Management, Elysium, Coatue, Boothbay, Honeycomb, Valar, and back to Black's own family office.**
 
 ---
 
 ## 1,600 Files
 
-Leon Black appears in more EFTA documents than any other external individual. Across 1,476,377 files in our database, the name "Leon Black" and its variants produce **1,600 unique file matches**.
+Leon Black appears in more EFTA documents than any other external individual. Across 1,476,377 files in my database, the name "Leon Black" and its variants produce **1,600 unique file matches**.
 
-For comparison: the entire Outgoing Money Trust has 195 files. Financial Trust Company has 1,014. Leon Black has more documents than most shells.
+For comparison: the Outgoing Money Trust has 195 files. Financial Trust Company has 1,014. Leon Black has more documents than most shells.
 
-The variant breakdown tells its own story:
+The variant breakdown:
 
 | Entity Variant | Files |
 |---------------|-------|
@@ -28,7 +28,7 @@ The variant breakdown tells its own story:
 | BREAKFAST w/Leon Black | 21 |
 | 4:00pm Appt w/Leon Black | 15 |
 
-Black didn't just wire money. He had named staff (Ada Clapp, Eileen Alexanderson, Joseph Avantario) embedded in the email correspondence. His family office (Black Family Partners) and his management company (Elysium Management) were operational participants, not arm's-length counterparties. The calendar entries — "BREAKFAST w/Leon Black" on 21 files, "4:00pm Appt w/Leon Black" on 15 — document a relationship measured in recurring face-to-face meetings.
+Black didn't just wire money. He had staff — Ada Clapp, Eileen Alexanderson, Joseph Avantario — embedded in the email traffic. His family office (Black Family Partners) and management company (Elysium Management) weren't arm's-length counterparties. They were operational participants. The calendar entries — "BREAKFAST w/Leon Black" on 21 files, "4:00pm Appt w/Leon Black" on 15 — tell you this relationship ran on face-to-face meetings.
 
 ## Every Shell, Every File
 
@@ -46,15 +46,15 @@ Black's document footprint intersects with every major entity in the Epstein she
 
 Southern Trust Company — the network's central hub, which processed $244 million in verified wire transfers — shares **60 documents** with Leon Black entities. Financial Trust Company — the Bear Stearns brokerage entity with 325 financial records — shares **46**.
 
-No other external individual touches all seven shells. Leon Black's financial relationship didn't run through a single channel. It permeated the entire structure.
+No other external individual touches all seven shells. Black's money didn't run through one channel. It permeated the entire structure.
 
 ## Following the Money Downstream
 
-Black's payments to Epstein entered the network primarily through Southern Trust Company. The 2021 Dechert LLP review commissioned by Apollo's board documented approximately $158–170 million in total payments from Black to Epstein across all channels. Court exhibits reviewed by other EFTA researchers identify 14 separate wire transfers from five Black-controlled entities (Black Family Partners LP, Leon and Debra Black, BV70 LLC, Narrow Holdings LLC, and Elysium Management) totaling $168 million into Southern Trust Company alone. Our wire ledger independently captured and verified $60.5 million of that total — a subset, not the full picture.
+Black's payments to Epstein entered the network primarily through Southern Trust Company. The 2021 Dechert LLP review commissioned by Apollo's board documented approximately $158–170 million in total payments from Black to Epstein across all channels. Court exhibits reviewed by other EFTA researchers identify 14 separate wire transfers from five Black-controlled entities (Black Family Partners LP, Leon and Debra Black, BV70 LLC, Narrow Holdings LLC, and Elysium Management) totaling $168 million into Southern Trust Company alone. My wire ledger independently captured and verified $60.5 million of that total — a subset, not the full picture.
 
 What happened after the money arrived has not been publicly traced — until now.
 
-Our co-occurrence analysis of Southern Trust Company's financial documents against known investment fund entities reveals a direct downstream pipeline:
+I ran co-occurrence on Southern Trust's financial docs against known investment fund entities. Direct downstream pipeline:
 
 | Fund/Entity | Shared Financial Files with Southern Trust |
 |------------|------------------------------------------|
@@ -81,7 +81,7 @@ And then there's the line that connects it explicitly: **"Black Family Partners 
 
 Leon Black publicly characterized his payments to Epstein as compensation for "tax and estate planning advice." The 2021 Dechert LLP review commissioned by Apollo's board concluded that Black paid Epstein approximately $158 million total (including non-wire payments) for professional services.
 
-Our data doesn't evaluate whether the payments were for legitimate services. What it does show is the path the money took after entering the network:
+My data doesn't evaluate whether the payments were for legitimate services. What it does show is the path the money took after entering the network:
 
 **Step 1:** Black Family Partners, BV70 LLC, Narrow Holdings, Leon and Debra Black, and Elysium Management wire funds to Southern Trust Company (~$168 million per court exhibits; $60.5 million independently verified in our ledger).
 
@@ -89,7 +89,7 @@ Our data doesn't evaluate whether the payments were for legitimate services. Wha
 
 **Step 3:** Southern Trust Company financial records also show co-occurring transactions with Boothbay, Honeycomb, Valar, and Coatue — the same investment funds that received outflows from other Epstein entities including Gratitude America (see [Narrative 15](15_gratitude_america.md)).
 
-The question is not whether Black paid Epstein. That's established — approximately $168 million through five entities. The question is whether money that entered Southern Trust Company from Black entities subsequently flowed to accounts that Black entities also controlled or benefited from — and whether the "tax and estate planning" characterization adequately describes a relationship that touched every shell in a 14-entity network with $1.964 billion in total extracted financial activity.
+The question is not whether Black paid Epstein. That's established — approximately $168 million through five entities. The question is whether money that entered Southern Trust Company from Black entities subsequently flowed to accounts that Black entities also controlled or benefited from — and whether the "tax and estate planning" characterization adequately describes a relationship that touched every shell in a 14-entity network with $2.146 billion in total extracted financial activity across 6,310 classified transactions.
 
 ## What the Dechert Review Didn't Have
 

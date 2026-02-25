@@ -6,11 +6,11 @@
 
 ---
 
-## Summary
+## What I Found
 
-Plan D LLC disbursed $18,000,000 (Unverified) to Leon Black across 4 wire transfers between 2014 and 2017. In the same dataset, I found $1,125.03 flowing *into* Plan D LLC — a single remittance advice entry. The entity's inflow-to-outflow ratio is essentially zero. Plan D LLC paid out $18 million that, within the EFTA corpus, has no visible funding source.
+Plan D LLC sent $18,000,000 (Unverified) to Leon Black across 4 wire transfers between 2014 and 2017. Coming the other direction? $1,125.03. One remittance advice entry. That's it. Plan D paid out $18 million with no visible funding source anywhere in the EFTA corpus.
 
-Separately, Leon & Debra Black and Black Family Partners LP transferred $131,500,000 (Unverified) *into* Southern Trust Company Inc. — the central hub of the Epstein trust network — across 12 wire transfers documented on **Exhibit A**.
+Meanwhile, Leon & Debra Black and Black Family Partners LP sent $131,500,000 (Unverified) *into* Southern Trust Company Inc. — the network's central hub — across 12 wire transfers on **Exhibit A**.
 
 ## Plan D LLC Outflows
 
@@ -50,17 +50,17 @@ The larger financial relationship between Leon Black and the Epstein network is 
 
 Additional Black-related transfers through other channels bring the total visible Black-network activity to approximately $163 million (Unverified) across 34 ledger entries.
 
-## The Two-Direction Pattern
+## Two Directions at Once
 
-The financial data shows money flowing in two directions simultaneously:
+Money was flowing both ways:
 
 **Inbound to Epstein network**: $106.5M from Black-affiliated entities → Southern Trust Company (2013-2017)
 
 **Outbound from Epstein network**: $18M from Plan D LLC → Leon Black (2014-2017)
 
-The timing overlaps. On April 25, 2014, Leon & Debra Black sent $5M to Southern Trust (Exhibit A) while Plan D LLC sent $5M to Leon Black (Phase 25 recovery). On October 22, 2014, Black Family Partners sent $3M to Southern Trust (Exhibit A) while Plan D LLC sent $3M and $2M to Leon Black.
+Look at the dates. April 25, 2014 — Leon & Debra Black send $5M to Southern Trust (Exhibit A). Same day, Plan D LLC sends $5M to Leon Black (Phase 25 recovery). October 22, 2014 — Black Family Partners sends $3M to Southern Trust (Exhibit A). Same day, Plan D LLC sends $3M and $2M to Leon Black.
 
-I present the data without interpreting the business purpose. The same-day matching of amounts in opposite directions is visible in the records.
+I'm showing the data. I'm not interpreting the business purpose. But the same-day matching of amounts in opposite directions is right there in the records.
 
 ## Additional Black-Network Activity
 
@@ -72,12 +72,12 @@ Beyond Plan D LLC and Southern Trust, I found transfers involving Debra Black th
 - Southern Trust → Debra Black: $8,500,000 (Oct 15, 2013)
 - HALPERIN → Leon Black: $3,200,000 (undated)
 
-## What I Cannot Determine
+## What I Can't Determine
 
-- **What Plan D LLC was.** I know its outflows. I do not know its corporate structure, registration, or stated purpose.
+- **What Plan D LLC was.** I know its outflows. I don't know its corporate structure, registration, or stated purpose.
 - **Where Plan D LLC's money came from.** The $18M it disbursed has no visible funding source within the EFTA corpus.
 - **The business purpose of the Black → Southern Trust transfers.** These could be investment allocations, loan payments, advisory fees, or other arrangements.
-- **The relationship between the inbound and outbound flows.** The same-day matching is a data observation, not a conclusion about intent.
+- **The relationship between the inbound and outbound flows.** Same-day matching is a data observation. I'm not drawing a conclusion about intent.
 
 ---
 

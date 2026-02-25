@@ -6,15 +6,15 @@
 
 ---
 
-## Summary
+## What I Found
 
-I cross-referenced 160 verified wire transfer dates from the [master wire ledger](../data/master_wire_ledger_phase5i.json) against 321 documented flight dates for Epstein's two registered aircraft — N212JE (Gulfstream) and N908JE (Boeing 727) — extracted from U.S. Customs and Border Protection APIS (Advance Passenger Information System) records in the EFTA corpus.
+I cross-referenced 160 verified wire transfer dates against 321 documented flight dates for Epstein's two registered aircraft — N212JE (Gulfstream) and N908JE (Boeing 727). The flight data comes from CBP APIS records in the EFTA corpus.
 
-The overlap is 4.3 times what random chance would predict.
+The overlap runs 4.3× above random chance.
 
-Wire transfers and aircraft movements clustered on the same dates at a rate that cannot be explained by calendar coincidence alone. Over the period October 2013 through April 2019, 32 wire transfers landed on the exact same date as a documented flight, and 149 transfers fell within a ±3-day window of documented aircraft movement.
+Wire transfers and aircraft movements clustered on the same dates at a rate that calendar coincidence can't explain. Over the period October 2013 through April 2019, 32 wire transfers landed on the exact same date as a documented flight, and 149 transfers fell within a ±3-day window of documented aircraft movement.
 
-This analysis does not establish causation. It establishes temporal proximity at a statistically significant rate.
+I'm not claiming causation. I'm showing the timing.
 
 ## The Data Sources
 
@@ -80,7 +80,7 @@ The Boeing 727 — N908JE, registered to Jet Assets Inc. — appears in 350 date
 
 The N908JE entries are fewer because the Boeing 727 was used less frequently in the 2013-2019 period covered by the verified wire data.
 
-## What the Pattern Shows
+## What It Means
 
 Money moved when the plane moved. Not always, not exclusively, but at a rate 4.3 times higher than random chance predicts for same-day overlap.
 
@@ -108,7 +108,7 @@ This assumes independence between wire transfers and flights — i.e., that the 
 
 However, a confounding variable exists: both wire transfers and flights may cluster around the same periods of high activity (e.g., months when Epstein was in New York conducting business). Seasonal clustering could inflate the observed overlap without implying direct coordination between specific wires and specific flights. A month-by-month stratified analysis would be needed to fully control for this effect.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **Whether any specific wire transfer funded any specific flight.** Temporal proximity is not a causal chain. A wire on Tuesday and a flight on Wednesday may be coincidental, coordinated, or driven by a shared third factor (e.g., Epstein's calendar).
 - **Who was on the flights.** The APIS records in the EFTA corpus show Epstein as the passenger of record. Other passengers may be named in the full manifest documents, but the OCR extraction from these multi-page CBP forms is incomplete.

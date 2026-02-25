@@ -6,11 +6,11 @@
 
 ## 11,153 Files
 
-Richard Kahn appears on **11,153 documents** in the EFTA corpus. That is more than Southern Trust Company (883), Southern Financial (628), Financial Trust Company (1,014), and Gratitude America (209) combined.
+Richard Kahn shows up on **11,153 documents** in the EFTA corpus. That's more than Southern Trust (883), Southern Financial (628), Financial Trust Company (1,014), and Gratitude America (209) combined.
 
-7,103 of those files carry the attribution "Richard Kahn / HBRK Associates Inc." — meaning the majority of Kahn's document footprint is explicitly linked to his accounting practice, not to a personal capacity.
+7,103 of those carry the attribution "Richard Kahn / HBRK Associates Inc." Most of Kahn's footprint ties directly to his accounting practice, not personal capacity.
 
-HBRK Associates is not a bank. It is not a law firm. It is not a trust company. It is a **Certified Public Accountant practice** — and it appears on more documents than any financial entity in the Epstein network.
+HBRK Associates is not a bank. Not a law firm. Not a trust company. It's a **CPA practice** — and it appears on more documents than any financial entity in the Epstein network.
 
 ## The Email Hub
 
@@ -28,13 +28,13 @@ HBRK Associates' document type breakdown:
 | Subpoena | 7 |
 | Phone Record | 2 |
 
-97.8% of HBRK's document footprint is email. The firm was not primarily preparing tax returns or performing audits — it was the network's **communications backbone**. Every instruction, every transaction coordination, every operational decision that required written documentation appears to have been routed through or copied to HBRK Associates.
+97.8% of HBRK's footprint is email. This firm wasn't preparing tax returns. It was the network's **communications backbone**. Every instruction, every transaction coordination, every operational decision — routed through or copied to HBRK.
 
 The 11 flight log co-occurrences mean HBRK appeared in contexts involving aviation — the same flight records that document travel to and from St. Thomas and other Epstein locations.
 
 ## Every Shell, Every Document Type
 
-No other entity in the network has HBRK's reach. Our co-occurrence analysis shows HBRK touching every major shell entity, across multiple document types:
+Nothing else in the network has HBRK's reach. My co-occurrence analysis shows it touching every major shell, across every document type:
 
 ### Email Co-occurrence (Primary Channel)
 
@@ -67,11 +67,11 @@ No other entity in the network has HBRK's reach. Our co-occurrence analysis show
 | Gratitude America | 3 | — | — | — |
 | Epstein & Co. | — | 5 | — | — |
 
-HBRK Associates doesn't just appear in emails. It co-occurs with shell entities across court filings (where it appeared in legal proceedings alongside shells), fax communications (direct business correspondence), financial documents (where accounting work product meets shell activity), and general documents.
+HBRK doesn't just show up in emails. It co-occurs with shells across court filings, faxes, financial docs, and general documents.
 
-The combined totals: Southern Trust/Financial (**167 shared files**), Butterfly Trust (**27**), Haze Trust (**26**), Jeepers (**23**), Gratitude America (**22**), Financial Trust Company (**17**), Epstein & Co (**9**), Nautilus (**7**).
+Combined totals: Southern Trust/Financial (**167 shared files**), Butterfly Trust (**27**), Haze Trust (**26**), Jeepers (**23**), Gratitude America (**22**), Financial Trust Company (**17**), Epstein & Co (**9**), Nautilus (**7**).
 
-This is not a CPA practice that prepared annual tax returns for a client. This is a CPA practice that was embedded in the daily operational communications of a 14-entity, multi-bank financial network with $1.964 billion in total extracted financial activity.
+This is not a CPA practice that prepared annual tax returns for a client. This is a CPA practice that was embedded in the daily operational communications of a 14-entity, multi-bank financial network with $2.146 billion in total extracted financial activity.
 
 ## The Inner Circle
 
@@ -129,7 +129,7 @@ The recurring references to invoice numbers (826119 Invoice # on 69 mentions) su
 
 This is the point: HBRK Associates was not a major financial beneficiary of the network. The money flowing through the shells — the $60.5 million from Leon Black, the $25 million from Rothschild, the $244 million through Southern Trust — dwarfs whatever HBRK earned in professional fees. The firm's significance is not in how much money it received. It's in how much money it **coordinated**.
 
-An accounting firm earning modest fees but routing 18,833 emails across a network with $1.964 billion in total financial activity. That is the disproportion that makes HBRK Associates the most structurally important entity that nobody has examined.
+An accounting firm earning modest fees but routing 18,833 emails across a network with $2.146 billion in total financial activity. That is the disproportion that makes HBRK Associates the most structurally important entity that nobody has examined.
 
 ---
 

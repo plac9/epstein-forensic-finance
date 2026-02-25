@@ -4,17 +4,17 @@
 
 ---
 
-## A Trust With 180 Financial Records and Zero Wire Transfers
+## 180 Financial Records, Zero Wire Transfers
 
-The Outgoing Money Trust appears in 195 documents in the EFTA corpus, of which 180 are classified as financial. That makes it one of the most financially documented entities in the Epstein shell network — 92% of its file footprint is financial records.
+The Outgoing Money Trust shows up in 195 EFTA documents. 180 are financial. That's 92% financial records — one of the most financially documented entities in the network.
 
-It has no wire transfer records in the Deutsche Bank production. Not one.
+Zero wire transfer records in the Deutsche Bank production. Not one.
 
-That's not because the Outgoing Money Trust didn't move money. It's because it moved money through seven different banks.
+That's not because it didn't move money. It moved money through seven different banks.
 
 ## The Seven Banks
 
-Our co-occurrence analysis of Outgoing Money Trust financial documents against banking entities produces a clear disbursement architecture:
+I ran co-occurrence on Outgoing Money Trust financial docs against banking entities. Clear disbursement architecture:
 
 | Bank | Financial Files | Type |
 |------|----------------|------|
@@ -26,9 +26,9 @@ Our co-occurrence analysis of Outgoing Money Trust financial documents against b
 | **PNC Bank** | **12** | Secondary |
 | **Sabadell United Bank** | **11** | Secondary |
 
-Deutsche Bank is listed as both the primary bank and the source of wire transfer records — yet the Outgoing Money Trust has no entries in the wire ledger. This means its Deutsche Bank statements were captured in the broader document production, but the account's individual wire transfers were not isolated into the exhibit structure that covers Southern Trust, Southern Financial, Gratitude America, and the other wire-ledger entities.
+Deutsche Bank is the primary bank — but the Outgoing Money Trust has no entries in the wire ledger. Its Deutsche Bank statements got captured in the broader production, but the individual wires never made it into the exhibit structure covering Southern Trust, Southern Financial, and the other ledger entities.
 
-The six additional banks are not shared with any other Epstein entity at this scale. No other shell in the network used seven different banks. Southern Trust banked at Deutsche Bank. Haze Trust banked at Deutsche Bank and HSBC. Gratitude America used Deutsche Bank and Morgan Stanley. The Outgoing Money Trust used **seven**.
+No other shell in the network used seven banks. Southern Trust banked at Deutsche Bank. Haze Trust banked at Deutsche Bank and HSBC. Gratitude America used Deutsche Bank and Morgan Stanley. The Outgoing Money Trust used **seven**.
 
 ## What the Statements Show
 
@@ -54,17 +54,17 @@ Neither name appears prominently on other Epstein shell entities' financial reco
 
 Under the Bank Secrecy Act, financial institutions are required to file Suspicious Activity Reports (SARs) when they observe transactions that appear designed to evade reporting requirements. One of the primary indicators for SAR filing is **structuring** — the practice of distributing transactions across multiple institutions or accounts to avoid triggering individual reporting thresholds.
 
-A single trust entity maintaining active financial accounts at seven different banks, making recurring disbursements in the $100,000–$500,000 range, with no clear commercial purpose for the multi-bank architecture, presents a textbook structuring profile.
+One trust. Seven banks. Recurring disbursements in the $100K–$500K range. No clear commercial reason for the multi-bank setup. That's a textbook structuring profile.
 
-This is not a legal conclusion. There may be legitimate business reasons for the seven-bank structure. But the pattern is precisely what BSA/AML compliance programs are designed to detect, and it raises a question: did any of these seven banks file SARs on the Outgoing Money Trust's activity?
+I'm not making a legal conclusion. There may be legitimate reasons for the seven-bank structure. But the pattern is precisely what BSA/AML compliance programs are designed to detect, and it raises a question: did any of these seven banks file SARs on the Outgoing Money Trust's activity?
 
 Deutsche Bank's Epstein-related SAR failures are a matter of public record — they were central to the $150 million DFS fine. Whether Wells Fargo, Bank of America, TD Bank, JPMorgan Chase, PNC Bank, or Sabadell United Bank filed SARs on the Outgoing Money Trust is unknown.
 
-## The Disbursement Function
+## The Name Says It All
 
-The Outgoing Money Trust's name is its function. It was the network's payment processor — the entity that converted pooled funds into outgoing payments across multiple banking channels.
+Outgoing Money Trust. The name is the function. It was the network's payment processor — converting pooled funds into outgoing payments across multiple banking channels.
 
-Other shells in the network collected and concentrated money. Southern Trust ($244 million in wires) and Southern Financial ($139 million) served as hub accounts. The Outgoing Money Trust appears to have served the opposite function: disaggregation. It took concentrated funds and distributed them across seven banking relationships in amounts and frequencies designed for the disbursement layer of the network.
+Other shells collected and concentrated money. Southern Trust ($244M) and Southern Financial ($139M) were the hubs. The Outgoing Money Trust did the opposite: disaggregation. Concentrated funds distributed across seven banks in disbursement-sized amounts.
 
 Combined with the Outgoing Money Trust's co-occurrence with the broader Epstein entity network — it shares files with Deutsche Bank Trust Company Americas (157), Southern Trust Company via cross-references, and shows the standard bank statement formatting (Non-Electronic Funds Transfers, Preauthorized Debit, Debit Card Withdrawals) — this entity operated as the network's outflow engine.
 

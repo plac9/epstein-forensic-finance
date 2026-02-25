@@ -6,15 +6,15 @@
 
 ---
 
-## Summary
+## What I Found
 
-I searched 11.4 million entity records across 1.48 million DOJ documents for people who appear in three distinct document categories: financial records (wire transfers, bank statements, account documents), victim-related documents (court filings naming Jane Doe plaintiffs, FBI trafficking investigations, victim impact statements), and travel records (flight logs, itineraries, passenger manifests).
+I searched 11.4 million entity records across 1.48 million DOJ documents for people who show up in three categories: financial records, victim-related documents, and travel records.
 
-Ten names were tested. Every one of them appeared in victim-related documents. Several appeared in all three categories simultaneously. The financial infrastructure and the abuse infrastructure were not separate systems. They shared personnel.
+Ten names tested. Every single one appeared in victim-related documents. Several appeared in all three categories at once. The financial infrastructure and the abuse infrastructure were not separate systems. They shared personnel.
 
 ## The Data
 
-Entity co-occurrence was measured by counting the number of unique files in which each name appears, filtered by document type and content classification. The underlying data is the `entities` table (11.4 million rows) joined against the `files` table (1.48 million rows) with document type and summary text filtering.
+I counted unique files per name, filtered by document type. Entities table (11.4 million rows) joined against files (1.48 million rows).
 
 **Document categories:**
 - **Financial**: doc_type = financial, spreadsheet, bank_statement; or summary contains wire, payment, account, check, invoice
@@ -36,7 +36,7 @@ Entity co-occurrence was measured by counting the number of unique files in whic
 | **Nadia Marcinkova** | Named by victims | 0 | **35** | 0 | 66 |
 | **George Nader** | Convicted (child exploitation) | 11 | 11 | 0 | 68 |
 
-## What the Numbers Mean
+## What the Names Show
 
 **Ghislaine Maxwell** appears in 204 financial documents and 1,312 victim-related documents. She is the only person in this analysis who occupies the center of all three document universes at scale — financial (204), victim (1,312), and travel (53). She was convicted in 2021 on five federal charges including sex trafficking of a minor.
 
@@ -98,7 +98,7 @@ The operational staff — Maxwell, Indyke, Groff, Kellen, Visoski — appear in 
 
 This is not a finding about guilt. It is a finding about structure. The financial infrastructure documented in Narratives 1–7 was not a separate system from the abuse infrastructure documented in victim testimony. They shared the same people.
 
-## What I Cannot Determine
+## What I Can't Determine
 
 - **Whether any specific wire transfer funded any specific act of abuse.** The temporal and personnel overlap is documented. The causal chain is not.
 - **What victims experienced.** This analysis does not access, reproduce, or summarize victim testimony. It measures entity co-occurrence at the document level only.

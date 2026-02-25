@@ -6,11 +6,11 @@
 
 ---
 
-## Summary
+## What I Found
 
-Deutsche Bank appears in more wire transfers in the master ledger than any other bank. I identified 38 wires totaling $56,792,936 (Unverified) where Deutsche Bank was either the sending or receiving institution. These wires touched every major entity in the Epstein financial network: Haze Trust, Southern Trust, Butterfly Trust, Southern Financial, Gratitude America, and personal intermediaries including Darren Indyke (Epstein's attorney).
+Deutsche Bank shows up in more wire transfers than any other bank in the master ledger. I pulled 38 wires totaling $56,792,936 (Unverified) where Deutsche Bank was on one end or the other. These wires touched every major entity in the Epstein financial network: Haze Trust, Southern Trust, Butterfly Trust, Southern Financial, Gratitude America, and personal intermediaries including Darren Indyke (Epstein's attorney).
 
-Deutsche Bank's role in the Epstein relationship is already a matter of public record — the bank paid $150 million to the New York State Department of Financial Services in 2020 to settle claims related to its Epstein accounts. This analysis does not replicate that regulatory finding. What it adds is a granular, wire-level map of where the money went after it left Deutsche Bank's books.
+Deutsche Bank's Epstein relationship is public record — they paid $150 million to the New York State DFS in 2020. I'm not replicating that finding. What I'm adding is a wire-level map of where the money actually went.
 
 ## Outflows by Recipient
 
@@ -46,7 +46,7 @@ The dated wires span from October 2012 to February 2019:
 
 **2018-2019 (late period — largest transfers):** The heaviest activity occurred in the final 6 months before Epstein's arrest. Between August 2018 and February 2019: $5M, $8M, $8M, $58K to Haze Trust. $6M, $6M, $7M, $2.7M also to Haze Trust. $8M to Southern Trust. $300K to Butterfly Trust.
 
-**The late-period concentration is stark.** Over 75% of Deutsche Bank's outflow volume occurred in the last 6 months of the relationship.
+**That concentration at the end is hard to ignore.** Over 75% of Deutsche Bank's outflow volume occurred in the last 6 months of the relationship.
 
 ## The Indyke Connection
 
@@ -60,13 +60,13 @@ Five wires totaling $5,798,525 (Unverified) went from Deutsche Bank to entities 
 | Nov 17, 2014 | $100,000 |
 | May 21, 2014 | $525 |
 
-The $3M and $2M transfers are the largest non-trust disbursements from Deutsche Bank in the dataset. The $525 wire is notable only for its size — it is the smallest transfer in the entire master ledger that involves Deutsche Bank.
+The $3M and $2M transfers are the largest non-trust disbursements from Deutsche Bank in the dataset. The $525 wire is the smallest transfer in the entire master ledger involving Deutsche Bank.
 
-## Custodian vs. Conduit
+## Custodian or Conduit?
 
-A critical question in interpreting this data: was Deutsche Bank acting as a custodian (holding and transferring assets at the client's direction) or as a conduit (actively facilitating the movement of money through the shell network)?
+Was Deutsche Bank just holding and transferring assets at the client's direction? Or was it actively moving money through the shell network?
 
-The data alone cannot answer this question. What the data shows:
+The data can't answer that. Here's what it does show:
 
 - Deutsche Bank accounts held assets for Haze Trust, Butterfly Trust, Southern Trust, Southern Financial, Jeepers Inc., and Epstein's personal accounts
 - Transfers between these entities frequently moved through Deutsche Bank
@@ -75,9 +75,9 @@ The data alone cannot answer this question. What the data shows:
 
 The 2020 DFS settlement confirms regulatory findings that Deutsche Bank's compliance failures were substantive, not merely procedural.
 
-## What I Cannot Determine
+## What I Can't Determine
 
-- **Whether Deutsche Bank personnel had knowledge of the ultimate purpose of these transfers.** Wire instructions typically contain limited beneficiary information.
+- **Whether Deutsche Bank personnel knew what these transfers were for.** Wire instructions typically carry limited beneficiary info.
 - **What triggered the late-period surge.** The 2018-2019 concentration could reflect changed investment strategy, asset repositioning, or other factors not visible in the wire data.
 - **Deutsche Bank's complete relationship with Epstein.** I am seeing wires that survived into the EFTA corpus. The bank's internal records, which would show the full scope of the relationship, are not part of the public release.
 

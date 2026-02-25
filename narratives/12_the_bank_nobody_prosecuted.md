@@ -4,13 +4,13 @@
 
 ---
 
-## The Numbers That Don't Add Up
+## The Numbers
 
 In 2020, the New York State Department of Financial Services fined Deutsche Bank $150 million for compliance failures related to Jeffrey Epstein's accounts. In 2023, JPMorgan Chase settled a victim class action for $290 million over its Epstein relationship from 1998–2013. Both banks faced regulatory and civil consequences.
 
-Bear Stearns — the bank that carried more Epstein financial activity than either of them — faced nothing.
+Bear Stearns — the bank that carried more Epstein financial activity than either of them — got nothing. No fine. No settlement. No investigation.
 
-Our automated extraction across 1,476,377 DOJ EFTA documents produces the following money-mention volumes by institution:
+I ran my extraction across 1,476,377 DOJ EFTA documents. Here's how the money-mention volumes break down by institution:
 
 | Bank | Money Mentions | Financial Files | Key Entity |
 |------|---------------|-----------------|------------|
@@ -22,21 +22,21 @@ Our automated extraction across 1,476,377 DOJ EFTA documents produces the follow
 
 Bear Stearns appears in **5.7 times** more money-related contexts than Deutsche Bank — the bank that was actually fined.
 
-## Financial Trust Company: The Most Documented Shell Nobody Subpoenaed
+## Financial Trust Company: Nobody Subpoenaed It
 
-Financial Trust Company is the most document-heavy entity in the Epstein shell network: 1,014 total files, of which 325 are classified as financial documents. It has more financial records than Southern Trust (178), Southern Financial (118), Gratitude America (89), or any other entity.
+Financial Trust Company is the heaviest entity in the network by document count: 1,014 files, 325 of them financial. That's more financial records than Southern Trust (178), Southern Financial (118), or Gratitude America (89).
 
 And it has **zero wire transfer records** in the Deutsche Bank production.
 
 That's because Financial Trust Company didn't bank at Deutsche Bank. It banked at Bear Stearns.
 
-Our co-occurrence analysis shows Bear Stearns and Financial Trust Company share **66 documents** with **6,910 money-related mentions** across those shared files. The financial documents are brokerage account statements — portfolio compositions, transaction details, closing balances. The OCR artifacts confirm Bear Stearns letterhead: "Portfolio Composition," "Transaction Detail," "Closing Balance," "Reverse Repurchase," "WHOLLY OWNED SUBSIDIARY."
+My co-occurrence analysis shows Bear Stearns and Financial Trust Company sharing **66 documents** with **6,910 money-related mentions** across those shared files. The financial documents are brokerage account statements — portfolio compositions, transaction details, closing balances. The OCR artifacts confirm Bear Stearns letterhead: "Portfolio Composition," "Transaction Detail," "Closing Balance," "Reverse Repurchase," "WHOLLY OWNED SUBSIDIARY."
 
-These are institutional-grade brokerage records. Financial Trust Company maintained active investment accounts at Bear Stearns with recurring portfolio management activity.
+Institutional-grade brokerage records. Financial Trust Company had active investment accounts at Bear Stearns with recurring portfolio management activity.
 
-## The Shell Network Behind the Account
+## Not an Isolated Account
 
-Financial Trust Company was not an isolated account. Our co-occurrence analysis of FTC's financial documents shows it shared files with at least six other entities in the Epstein shell network:
+Financial Trust Company wasn't sitting by itself. My co-occurrence analysis of its financial docs shows it shared files with at least six other Epstein shells:
 
 | Co-Occurring Entity | Shared Financial Files |
 |---------------------|----------------------|
@@ -47,9 +47,9 @@ Financial Trust Company was not an isolated account. Our co-occurrence analysis 
 | Nautilus, Inc. | 3 |
 | Jeepers, Inc. | 3 |
 
-The Epstein & Co / Financial Trust Company overlap is particularly significant. These two entities share 126 documents across all types and both banked at Bear Stearns. Together they represent what appears to be a brokerage cluster — entities managed as a group within a single institution.
+The Epstein & Co / Financial Trust Company overlap matters. These two entities share 126 documents across all types and both banked at Bear Stearns. Together they represent what appears to be a brokerage cluster — entities managed as a group within a single institution.
 
-When Financial Trust Company's financial records reference Southern Trust Company and Southern Financial LLC, those are cross-entity transfers. Money moving from the Bear Stearns brokerage cluster into the Deutsche Bank wire transfer hub.
+When Financial Trust Company records reference Southern Trust and Southern Financial, that's cross-entity transfers. Money moving from the Bear Stearns brokerage cluster into the Deutsche Bank wire transfer hub.
 
 ## The JPMorgan Acquisition Gap
 
@@ -59,7 +59,7 @@ JPMorgan's $290 million settlement in 2023 covered its Epstein relationship from
 
 The pre-2008 Bear Stearns accounts are not addressed.
 
-This creates a temporal enforcement gap:
+That creates an enforcement gap:
 
 | Period | Institution | Enforcement Action |
 |--------|------------|-------------------|
@@ -68,15 +68,15 @@ This creates a temporal enforcement gap:
 | 1998–2013 | JPMorgan Chase (direct) | $290M settlement (2023) |
 | 2013–2018 | Deutsche Bank | $150M DFS fine (2020) |
 
-The period when Bear Stearns was independently processing Epstein-related financial activity — which our data suggests was the **highest-volume banking relationship in the network** — sits in an enforcement void. Bear Stearns ceased to exist. JPMorgan's settlement scoped to its own 1998–2013 direct relationship. The pre-acquisition Bear Stearns brokerage accounts — Financial Trust Company, Epstein & Co — were never examined as part of any enforcement action. Nobody looked backward into those legacy accounts.
+The period when Bear Stearns was independently processing Epstein financial activity — which my data says was the **highest-volume banking relationship in the network** — sits in a void. Bear Stearns ceased to exist. JPMorgan's settlement only covered 1998–2013. The pre-acquisition Bear Stearns accounts — Financial Trust Company, Epstein & Co — never got examined. Nobody looked backward.
 
-## The Money That Has No Audit Trail
+## No Audit Trail
 
 Financial Trust Company's 325 financial documents contain references to values including "$80 million" (37 mentions), "$500 million" (14 mentions), "$55 million" (15 mentions), "$10 million" (21 mentions), and "$20 million" (19 mentions). These are OCR extractions from brokerage statements — portfolio values, position sizes, transaction amounts.
 
-Unlike the Deutsche Bank wire production, which gave us Exhibits A through E with verifiable wire-by-wire detail, the Bear Stearns records have never been produced in any enforcement action. There is no equivalent of the wire ledger for the Financial Trust Company brokerage accounts.
+Deutsche Bank gave us Exhibits A through E with wire-by-wire detail because regulators forced production. Bear Stearns records? Never produced in any enforcement action. There's no wire ledger for Financial Trust Company.
 
-The Deutsche Bank fine occurred because regulators forced production of wire transfer records, which revealed the scope of Epstein-related transactions. No regulator has forced equivalent production from what remains of the Bear Stearns records — records that are now held by JPMorgan Chase.
+No regulator has forced equivalent production from the Bear Stearns records — records now held by JPMorgan Chase.
 
 ## What This Means
 

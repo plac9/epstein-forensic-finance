@@ -16,3 +16,18 @@ Thumbs.db
 # Private workbook scripts and outputs — not for repo
 master_notebook/
 *.xlsx
+*.xlsx
+*.db
+*.sqlite
+__pycache__/
+.DS_Store
+*.xlsx
+*.db
+*.sqlite
+__pycache__/
+.DS_Store
+*.xlsx
+*.db
+*.sqlite
+__pycache__/
+.DS_Store

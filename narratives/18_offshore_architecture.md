@@ -6,9 +6,9 @@
 
 ---
 
-## Summary
+## What I Found
 
-A computational cross-reference of the DOJ EFTA corpus, the ICIJ Offshore Leaks database, and FinCEN transaction records reveals the complete offshore-to-domestic financial architecture of the Brunel/MC2 modeling network. One BVI shell company — **Scouting International Investment Co., Ltd.** — appears in exactly one DOJ document and is independently confirmed in the ICIJ Offshore Leaks database as a Brunel-controlled entity incorporated through two offshore intermediaries in Tortola. This entity sits alongside a domestic trust pipeline that moved $10M+ through a single JPMorgan account, with outflows to Ghislaine Maxwell totaling $648K+ across 8 STRONG-tier transfers.
+I cross-referenced the DOJ EFTA corpus against the ICIJ Offshore Leaks database and FinCEN transaction records. What came back: the complete offshore-to-domestic financial architecture of the Brunel/MC2 modeling network. One BVI shell company — **Scouting International Investment Co., Ltd.** — appears in exactly one DOJ document and is independently confirmed in the ICIJ Offshore Leaks database as a Brunel-controlled entity incorporated through two offshore intermediaries in Tortola. That entity sits next to a domestic trust pipeline that moved $10M+ through a single JPMorgan account, with outflows to Ghislaine Maxwell totaling $648K+ across 8 STRONG-tier transfers.
 
 No individual data point here is new. The connected map is.
 
@@ -73,7 +73,7 @@ Both intermediaries are BVI-registered corporate formation agents. Portcullis Tr
 
 ## The Money Pipeline
 
-While Scouting International shows no direct financial flows in the released documents (it was either a holding vehicle or the records were destroyed/not released), the domestic side of the Brunel network moved significant money through a single trust account.
+Scouting International shows no direct financial flows in the released documents. Either it was a holding vehicle, or the records got destroyed or withheld. But the domestic side of the Brunel network moved real money through a single trust account.
 
 ### The Butterfly Trust — Account #44130552, JPMorgan Chase
 
