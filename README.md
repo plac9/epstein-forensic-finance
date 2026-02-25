@@ -23,7 +23,7 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 
 > I audited $2.1 billion in Epstein financial records. Here's every name the money touched. 123 nodes, 313 financial links, 8 shell entities, 12 key persons, 8 operators, 5 banks — mapped across the full $2.146B corpus. **Season 1 finale.**
 >
-> **→ [Read Narrative 19](narratives/19_grand_opus_narrative.html)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/19_blueprint_financial_machine.html" target="_blank">Interactive Visualization</a>** · **[Offshore Architecture (N18)](narratives/18_offshore_architecture.md)** · **[One-Way Money (N17)](narratives/17_the_architecture.md)**
+> **→ <a href="https://randallscott25-star.github.io/epstein-forensic-finance/narratives/19_grand_opus_narrative.html" target="_blank">Read Narrative 19</a>** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/19_blueprint_financial_machine.html" target="_blank">Interactive Visualization</a>** · **[Offshore Architecture (N18)](narratives/18_offshore_architecture.md)** · **[One-Way Money (N17)](narratives/17_the_architecture.md)**
 
 
 > **19 data narratives** reconstruct how $2.146 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
@@ -50,7 +50,7 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 | 16 | [The Accountant](narratives/16_the_accountant.md) | Richard Kahn / HBRK Associates: 18,833 emails, 11,153 files, touches every shell |
 | **17** | **[One-Way Money](narratives/17_the_architecture.md)** | **$272M in. $63M out. First multi-institution balance sheet. [Visualization](https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html)** |
 | **18** | **[Offshore Architecture: The Brunel–BVI–ICIJ Bridge](narratives/18_offshore_architecture.md)** | **DOJ subpoena names BVI shell. ICIJ confirms. Scouting International — Tortola, 2003, defunct. 172 docs, 3 databases cross-referenced.** |
-| **19** | **[Blueprint of a Financial Machine](narratives/19_grand_opus_narrative.html)** | **Season 1 finale. $2.146B, 123 nodes, 313 edges. Every bank, shell, operator, and key person mapped. [Visualization](https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/19_blueprint_financial_machine.html)** |
+| **19** | **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/narratives/19_grand_opus_narrative.html" target="_blank">Blueprint of a Financial Machine</a>** | **Season 1 finale. $2.146B, 123 nodes, 313 edges. Every bank, shell, operator, and key person mapped. <a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/19_blueprint_financial_machine.html" target="_blank">Visualization</a>** |
 
 
 
