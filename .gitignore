@@ -12,3 +12,7 @@ Thumbs.db
 *.tmp
 *.bak
 *_output.txt
+
+# Private workbook scripts and outputs — not for repo
+master_notebook/
+*.xlsx

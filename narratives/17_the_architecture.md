@@ -10,7 +10,7 @@ Let me be clear about what I'm working with.
 
 The master wire ledger contains 481 wire transfers totaling $973,392,414 extracted across the Phase 5I entity-resolution pipeline from the EFTA document production. 185 of those wires come from Deutsche Bank's verified court exhibits — specifically the five exhibits (A through E) attached to their Suspicious Activity Report on Epstein's accounts. The remaining 296 wires were extracted from the broader EFTA corpus across multiple banking institution productions including Bank of America, JPMorgan, Citibank, Barclays, and Wells Fargo. This isn't a Deutsche Bank story. This is a multi-institution story. Deutsche Bank's SAR exhibits happen to be the most organized slice of it, so I'll use them as the structural backbone — but the full picture is bigger than one bank.
 
-The entity classification index identifies 158 unique entities: 26 classified as Epstein-controlled, 126 as external parties, and 6 as banks or custodians.
+The entity classification index identifies 228 unique entities: 26 classified as Epstein-controlled, 126 as external parties, and 6 as banks or custodians.
 
 ---
 

@@ -26,7 +26,7 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 > **→ [Read Narrative 17](narratives/17_the_architecture.md)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html" target="_blank">Interactive Visualization</a>**
 
 
-> **17 data narratives** reconstruct how $1.964 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
+> **18 data narratives** reconstruct how $1.964 billion moved through 14 shell entities across 8+ banking institutions. Every claim is anchored to specific court exhibits and bates stamps.
 >
 > **→ [Read the Data Narratives](narratives/)** · **<a href="https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/shell_network.html" target="_blank">Explore the Interactive Network</a>** · **<a href="https://docs.google.com/spreadsheets/d/11lw0QjMZ-rYIjWesv5VG1YKts57ahPEm/edit?usp=sharing&ouid=103970896670138914877&rtpof=true&sd=true" target="_blank">View the Forensic Workbook</a>**
 
@@ -46,9 +46,10 @@ To my knowledge, this represents the first systematic attempt to reconstruct the
 | 12 | [The Bank Nobody Prosecuted](narratives/12_the_bank_nobody_prosecuted.md) | Bear Stearns: 5.7× Deutsche Bank volume, zero enforcement action |
 | 13 | [Seven Banks, One Trust](narratives/13_seven_banks_one_trust.md) | Outgoing Money Trust used 7 banks for disbursement — textbook structuring |
 | 14 | [Where Leon Black's Money Went](narratives/14_where_leon_blacks_money_went.md) | 1,600 files. Every shell. $60.5M in, Apollo Management out the other side |
-| 15 | [Gratitude America: The Charity That Invested](narratives/15_gratitude_america.md) | 83% to hedge funds, Epstein's girlfriend on the records, IRS no statute of limitations |
-| 16 | [The Accountant](narratives/16_the_accountant.md) | Richard Kahn's CPA firm: 18,833 emails across every shell in the network |
+| 15 | [Gratitude America: The Charity That Invested](narratives/15_gratitude_america.md) | Tax-exempt charity routing $2–20M to Boothbay, Honeycomb, Valar, Coatue |
+| 16 | [The Accountant](narratives/16_the_accountant.md) | Richard Kahn / HBRK Associates: 18,833 emails, 11,153 files, touches every shell |
 | **17** | **[One-Way Money](narratives/17_the_architecture.md)** | **$272M in. $63M out. First multi-institution balance sheet. [Visualization](https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/17_one_way_money.html)** |
+| **18** | **[Offshore Architecture: The Brunel–BVI–ICIJ Bridge](narratives/18_offshore_architecture.md)** | **DOJ subpoena names BVI shell. ICIJ confirms. Scouting International — Tortola, 2003, defunct. 172 docs, 3 databases cross-referenced.** |
 
 
 
@@ -309,6 +310,7 @@ Only one gap ($5-15M excluded tiers) has a credible dollar estimate. The others 
 | 15 | [Gratitude America: The Charity That Invested](narratives/15_gratitude_america.md) | Tax-exempt charity routing $2–20M to Boothbay, Honeycomb, Valar, Coatue | 89 financial · $45M wires |
 | 16 | [The Accountant](narratives/16_the_accountant.md) | Richard Kahn / HBRK Associates: 18,833 emails, 11,153 files, touches every shell | 18,833 emails · 11,153 files |
 | 17 | [One-Way Money](narratives/17_the_architecture.md) | $272M in. $63M out. $209M gap. First multi-institution balance sheet | 481 wires · 228 entities · $558M |
+| **18** | **[Offshore Architecture: The Brunel–BVI–ICIJ Bridge](narratives/18_offshore_architecture.md)** | **DOJ subpoena names BVI shell. ICIJ Offshore Leaks confirms. 3 databases cross-referenced** | **172 docs · 3 databases · 8,526 pages** |
 
 Source workbook: **[Forensic Workbook](https://docs.google.com/spreadsheets/d/11lw0QjMZ-rYIjWesv5VG1YKts57ahPEm/edit?usp=sharing&ouid=103970896670138914877&rtpof=true&sd=true)** · [Interactive Shell Network](https://randallscott25-star.github.io/epstein-forensic-finance/visualizations/shell_network.html)
 
@@ -326,7 +328,7 @@ Source workbook: **[Forensic Workbook](https://docs.google.com/spreadsheets/d/11
 │   ├── SCHEMA.md                          ← Database architecture diagram
 │   ├── NETWORK.md                         ← Trust network flow diagram
 │   └── SOURCE_APPENDIX_TEMPLATE.md        ← Standard template for future narratives (N17+)
-├── narratives/                            ← 17 forensic data narratives with source appendices
+├── narratives/                            ← 18 forensic data narratives with source appendices
 ├── data/
 │   ├── master_wire_ledger_phase5i.json    ← 481 wires (publication dataset)
 │   └── entity_classification.json         ← Entity → type mapping (228 entities)
@@ -452,7 +454,9 @@ The underlying DOJ documents are U.S. government publications in the public doma
 | Feb 21 | Wire extraction pipeline (Phases 14-24): $1.964B, 104.6% SAR coverage |
 | Feb 21 | Forensic workbook v6.1 published (11 tabs, 382-wire master ledger) |
 | Feb 21 | Phase 25: Date recovery from context fields — 75 dates (31.9%→51.6%), 0 collisions (credit: u/miraculum_one) |
-| Feb 22 | Repository made public. 17 Data Narratives published. 30 GitHub stars in 5 hours |
+| Feb 22 | Repository made public. 18 Data Narratives published. 30 GitHub stars in 5 hours |
 | Feb 24 | Phase 5I: 481 wires, $973M entity-resolved, 228 entities, 14-bank coverage, 51% Bates |
 | Feb 24 | Workbook v7 published (14 tabs). Full database audit: 33 tables, 8.03GB, 26.6M rows |
+| Feb 25 | Phase 5J: Multi-bank statement parser. 1,202 verified transactions from 13 banks ($430K) |
+| Feb 25 | Workbook v8 (19 tabs). N18 published. JSON v26 community dataset. |
 | Ongoing | Additional data narratives and follow-on analysis |
