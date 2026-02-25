@@ -25,9 +25,9 @@ While SSFS No. 1 formally applies to AICPA members performing forensic services 
 | SSFS Principle | How This Analysis Conforms |
 |----------------|---------------------------|
 | **Professional competence** | Practitioner holds MS Applied Data Science and professional experience in multi-affiliate financial reconciliation and budget auditing |
-| **Due professional care** | 9 contamination bugs identified and corrected; three-tier confidence framework; 10 limitations documented |
-| **Planning and supervision** | 25-phase pipeline with quality gates at each stage; dedup evolution across four methodological generations |
-| **Sufficient relevant data** | 1,575,000 files across 19 datasets; 7,355 classified fund flows; 185 court-exhibit verified wires |
+| **Due professional care** | 9 contamination bugs identified and corrected; four-tier GAGAS-aligned confidence framework; 10 limitations documented |
+| **Planning and supervision** | 25+ phase pipeline with quality gates at each stage; dedup evolution across four methodological generations |
+| **Sufficient relevant data** | 1,476,377 files across 19 datasets; 6,310 publication ledger transactions; 481 wire transfers; 185 court-exhibit verified wires |
 | **Documentation** | Complete methodology published; every extraction rule, scoring weight, and classification threshold documented |
 | **Communication of results** | All outputs labeled (Unverified); navigational-tool disclaimers; no attribution of guilt |
 
@@ -48,11 +48,11 @@ GAAS applies to audits of financial statements by independent auditors. This ana
 | **General Standard 1: Training & Proficiency** | Practitioner's professional background in institutional financial data analysis, automated classification systems, and multi-affiliate reconciliation |
 | **General Standard 2: Independence** | No financial relationship with any entity in the dataset; no engagement by any party; no compensation received |
 | **General Standard 3: Due Care** | Multiple quality gates; contamination bug detection; conservative bias in classification (excluding WEAK/VERY_WEAK tiers worth $991M) |
-| **Fieldwork Standard 1: Planning** | Structured 25-phase pipeline with defined scope, data sources, and extraction rules at each phase |
+| **Fieldwork Standard 1: Planning** | Structured 25+ phase pipeline with defined scope, data sources, and extraction rules at each phase |
 | **Fieldwork Standard 2: Internal Control** | Three-stage dedup evolution (amount-only → date-aware → verified-tier); entity classification audit; custodian suffix audit |
 | **Fieldwork Standard 3: Evidence** | Court-exhibit verified wires (122 entries with bates stamps); 5-axis confidence scoring; cross-table reconciliation |
 | **Reporting Standard 1: GAAP Conformity** | N/A — no financial statements are produced |
-| **Reporting Standard 2: Consistency** | Consistent methodology applied across all 25 phases; documented deviations (Phase 22 chain-hop removal, Phase 24 cap removal, Phase 25 date recovery) |
+| **Reporting Standard 2: Consistency** | Consistent methodology applied across all phases; documented deviations (Phase 22 chain-hop removal, Phase 24 cap removal, Phase 25 date recovery, Phase 5L publication ledger assembly) |
 | **Reporting Standard 3: Disclosure** | 10 limitations documented; (Unverified) tags on all amounts; bug fixes disclosed with impact amounts |
 | **Reporting Standard 4: Opinion** | **No opinion is expressed.** This analysis produces findings, not audit opinions. |
 
@@ -73,7 +73,7 @@ GAGAS (issued by the U.S. Government Accountability Office) applies to governmen
 | **Public interest** | Analysis conducted pro bono to increase public understanding of publicly released government documents |
 | **Transparency** | Complete methodology published; classification rules documented; limitations disclosed |
 | **Independence** | No financial or personal relationship with any entity in the dataset |
-| **Professional judgment** | Three-tier confidence framework reflects graduated certainty; conservative tier excludes $134M in potentially valid data |
+| **Professional judgment** | Four-tier GAGAS-aligned confidence framework reflects graduated certainty; T4 (Unclassified, $185M) excluded from SAR comparison |
 
 **Critical limitation:** This analysis does not conform to GAGAS and does not purport to. It is not a government audit.
 
@@ -108,7 +108,7 @@ While this analysis is not prepared for litigation, the methodology was designed
 | **Testable methodology** | Every extraction rule, scoring weight, and classification threshold is documented and reproducible |
 | **Peer review** | Methodology published for public review; AI-assisted QA applied throughout |
 | **Known error rate** | v6.2 spot-check: 93% PROVEN accuracy (28/30); 0% balance contamination; 9 bugs documented with impact |
-| **Standards controlling operation** | 5-axis scoring system with defined weights; three-tier confidence framework; documented dedup rules |
+| **Standards controlling operation** | 5-axis scoring system with defined weights; four-tier GAGAS-aligned confidence framework; documented dedup rules |
 | **General acceptance** | Methodology draws from established forensic accounting, financial auditing, and data science practices |
 
 ---
@@ -133,7 +133,7 @@ This analysis was conducted by a single practitioner. In a traditional audit or 
 Mitigating factors:
 - **AI-assisted QA**: Claude (Anthropic) was used for code review, methodology critique, and output verification — providing a form of independent review
 - **Self-correcting pipeline**: 9 contamination bugs were caught during the pipeline itself, demonstrating active quality monitoring
-- **Conservative bias**: The publication tier ($1.964B) is built on verified wires and date-aware dedup; the conservative tier ($1.844B) uses maximum dedup constraints
+- **Conservative bias**: The publication ledger ($2.146B) is built on four-tier GAGAS classification; T1–T3 auditable subtotal ($1.961B) covers 104.4% of the SAR benchmark
 - **Transparent limitations**: All 10 known limitations are documented; (Unverified) tags appear on every financial amount
 - **Reproducibility**: The methodology is described in sufficient detail for independent replication
 

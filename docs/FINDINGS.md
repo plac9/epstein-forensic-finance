@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-After 25 extraction phases across 1,575,000 DOJ EFTA files (from a corpus of 1,476,377 indexed files + 503K cataloged media items across 19 datasets), I recovered **$1,964,229,742** (Unverified) in documented financial activity — **104.6%** of the $1.878 billion FinCEN SAR benchmark. The extraction revealed a structured 4-tier trust network with 75 confirmed shell-to-shell wire transfers.
+After 25+ extraction phases across 1,476,377 DOJ EFTA files (plus 503K cataloged media items across 19 datasets), the publication ledger contains **6,310 unique transactions** totaling **$2,146,000,000** (Unverified) in documented financial activity across 10 payment types. The auditable subtotal (Tiers 1–3) reaches **$1,960,600,000** — **104.4%** of the $1.878 billion FinCEN SAR benchmark. The extraction revealed a structured 4-tier trust network with 43 confirmed shell-to-shell wire transfers across 14 shell entities and 8+ banking institutions.
 
 ---
 
@@ -14,12 +14,13 @@ After 25 extraction phases across 1,575,000 DOJ EFTA files (from a corpus of 1,4
 
 ### What I Found vs. What Was Expected
 
-| Metric | SAR Benchmark | Extraction (Unverified) | Delta |
+| Metric | SAR Benchmark | Publication Ledger (Unverified) | Delta |
 |--------|-------------:|---------------:|------:|
-| Total financial activity | $1,878,000,000 | $1,964,229,742 | +$86,229,742 |
-| Coverage | 100% | 104.6% | +4.6% |
+| Total financial activity | $1,878,000,000 | $2,146,000,000 | +$268,000,000 |
+| T1–T3 auditable subtotal | $1,878,000,000 | $1,960,600,000 | +$82,600,000 |
+| T1–T3 SAR coverage | 100% | 104.4% | +4.4% |
 
-**Why the extraction exceeds 100%**: The SAR benchmark counts only transactions banks flagged as suspicious. My extraction captures all identifiable wire transfers, including non-suspicious legitimate activity (art auction proceeds, law firm settlements, VC investments, hedge fund returns).
+**Why T1–T3 exceeds 100%**: The SAR benchmark counts only transactions banks flagged as suspicious. My extraction captures all identifiable financial activity — including non-suspicious legitimate transactions (art auction proceeds, law firm settlements, VC investments, hedge fund returns). The T4 (Unclassified, $185M) tier is excluded from the SAR comparison because those transactions lack sufficient entity resolution for classification.
 
 ### What's Still Missing
 
@@ -155,20 +156,23 @@ Consistent with NES LLC functioning as a personal expense shell for Maxwell.
 
 | Metric | Value |
 |--------|-------|
-| Unique dollar amounts extracted (v2-20) | 2,532 |
-| Date-recovered additional instances (Phase 23) | 95 |
-| Above-cap verified wires added (Phase 24) | 8 |
-| Date recoveries from source context (Phase 25) | 75 (0 collisions) |
+| Publication ledger transactions | 6,310 unique |
+| Publication ledger total | $2,146,000,000 |
+| Payment types classified | 10 |
+| T1 (Epstein-Controlled) | $1,610,000,000 |
+| T2 (Known Associates) | $343,000,000 |
+| T3 (Extended Network) | $7,600,000 |
+| T4 (Unclassified) | $185,000,000 |
+| Wire transfers in master ledger | 481 |
+| Bank statement transactions verified | 1,202 (13 banks) |
+| Entries with dates | 350 of 481 wires (72.8%) |
+| Entries with court exhibit references | 122 (verified_wires tier) |
+| Shell-to-shell transfers identified | 43 |
+| Unique entities in master ledger | 228 (entity-resolved) |
+| 5-axis PROVEN accuracy (v6.2 spot-check) | 93% (28/30) |
 | Contamination bugs caught & fixed | 9 |
 | Total inflation removed by bug fixes | $691.8M |
 | Total legitimate recovery from bug fixes | $484.1M |
-| Net bug fix impact | -$207.7M (inflation exceeded recovery) |
-| Final master ledger entries | 481 wires |
-| Entries with dates | 350 (72.8%) — includes Phase 25 recoveries + Phase 5I entity resolution |
-| Entries with court exhibit references | 122 (verified_wires tier) |
-| Shell-to-shell transfers identified | 43 |
-| Unique entities in master ledger | 158 |
-| 5-axis PROVEN accuracy (v6.2 spot-check) | 93% (28/30) |
 
 ---
 
@@ -186,4 +190,4 @@ Consistent with NES LLC functioning as a personal expense shell for Maxwell.
 
 ---
 
-*Analysis completed February 21, 2026. All findings derived from publicly available DOJ EFTA document releases. All amounts are (Unverified) automated extractions. Appearance in this analysis does not imply wrongdoing.*
+*Analysis current as of February 25, 2026 (Phase 5L). All findings derived from publicly available DOJ EFTA document releases. All amounts are (Unverified) automated extractions. Appearance in this analysis does not imply wrongdoing.*

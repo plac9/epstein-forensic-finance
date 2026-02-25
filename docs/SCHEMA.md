@@ -1,6 +1,6 @@
 # Database Architecture
 
-**8GB SQLite · 35 Tables · 19 Datasets · 11.4M Entities · 1.48M Files**
+**8GB SQLite · 36 Tables · 19 Datasets · 11.4M Entities · 1.48M Files**
 
 > This is not a search index. This is a relational forensic database designed to model financial flows, entity networks, and redaction patterns across the largest public corpus of Epstein-related documents.
 
@@ -96,20 +96,41 @@ EPSTEIN FORENSIC DATABASE (8GB)
 │   │       └── Regulatory filing data
 │   │
 │   └── MASTER OUTPUT
-│       └── master_wire_ledger ────── 481 Phase 5I-audited wires ★
-│           ├── entity_from → entity_to
-│           ├── amount, date
-│           ├── source (verified_wires / audited_PROVEN / audited_STRONG)
-│           ├── exhibit (if court-verified)
-│           ├── from_type → entity classification
-│           │   └── EPSTEIN_ENTITY / EXTERNAL_PARTY / BANK_CUSTODIAN
-│           ├── to_type → entity classification
-│           ├── flow_direction
-│           │   └── MONEY_IN / INTERNAL_MOVE / MONEY_OUT /
-│           │       BANK_SHELL / SHELL_BANK / PASS_THROUGH
-│           ├── is_date_recovery (Phase 23)
-│           ├── is_above_cap (Phase 24)
-│           └── is_phase25_recovery (Phase 25 date recovery)
+│       ├── publication_ledger ────── 6,310 Phase 5L transactions ★★
+│       │   ├── entity_from → entity_to
+│       │   ├── amount, date, payment_type
+│       │   ├── tier (T1/T2/T3/T4 — GAGAS-aligned)
+│       │   │   └── T1: Epstein-Controlled ($1.61B)
+│       │   │   └── T2: Known Associates ($343M)
+│       │   │   └── T3: Extended Network ($7.6M)
+│       │   │   └── T4: Unclassified ($185M)
+│       │   ├── source_exhibit, bates_number
+│       │   └── dedup_key (amount + entity_pair + date)
+│       │
+│       ├── master_wire_ledger ────── 481 Phase 5I-audited wires ★
+│       │   ├── entity_from → entity_to
+│       │   ├── amount, date
+│       │   ├── source (verified_wires / audited_PROVEN / audited_STRONG)
+│       │   ├── exhibit (if court-verified)
+│       │   ├── from_type → entity classification
+│       │   │   └── EPSTEIN_ENTITY / EXTERNAL_PARTY / BANK_CUSTODIAN
+│       │   ├── to_type → entity classification
+│       │   ├── flow_direction
+│       │   │   └── MONEY_IN / INTERNAL_MOVE / MONEY_OUT /
+│       │   │       BANK_SHELL / SHELL_BANK / PASS_THROUGH
+│       │   ├── is_date_recovery (Phase 23)
+│       │   ├── is_above_cap (Phase 24)
+│       │   └── is_phase25_recovery (Phase 25 date recovery)
+│       │
+│       ├── verified_bank_statements ── 1,202 multi-bank transactions
+│       │   ├── bank, statement_date, amount
+│       │   └── balance_context, source_file
+│       │
+│       ├── payment_type_registry ──── 10 classified payment types
+│       │   └── wire, CHIPS, SWIFT, check, bank_statement, etc.
+│       │
+│       └── dedup_audit_log ───────── Dedup decision trail
+│           └── Publication ledger assembly audit
 │
 ├── REDACTION ANALYSIS LAYER
 │   ├── redaction_recovery ────────── Content under redaction overlays
@@ -189,7 +210,14 @@ EPSTEIN FORENSIC DATABASE (8GB)
                         │   MASTER WIRE LEDGER   │
                         │   481 audited wires    │
                         │   $973,392,414       │
-                        │   104.6% SAR coverage  │
+                        └────────────┬───────────┘
+                                     │
+                                     ▼
+                        ┌────────────────────────┐
+                        │   PUBLICATION LEDGER   │
+                        │   6,310 transactions   │
+                        │   $2,146,000,000     │
+                        │   104.4% SAR (T1-T3)   │
                         └────────────────────────┘
 ```
 
@@ -203,9 +231,9 @@ EPSTEIN FORENSIC DATABASE (8GB)
 | Entity Intelligence | 3 | 11,438,000+ |
 | Financial Analysis — Raw | 2 | 35,375+ |
 | Financial Analysis — Classified | 2 | 31,187 |
-| Financial Analysis — Verified | 2 | 185+ |
+| Financial Analysis — Verified | 2 | 1,387 |
 | Financial Analysis — Benchmarks | 2 | Variable |
-| Financial Analysis — Output | 1 | 481 |
+| Financial Analysis — Output | 5 | 8,000+ |
 | Redaction Analysis | 3 | Variable |
-| External Cross-Reference | 6 | Variable |
-| **Total** | **35** | **13,000,000+** |
+| External Cross-Reference | 14 | Variable |
+| **Total** | **36** | **13,000,000+** |

@@ -4,7 +4,7 @@
 
 ## Overview
 
-This document describes the 25-phase extraction pipeline I built to identify and quantify financial wire transfers from 1,575,000 files across 19 DOJ EFTA datasets. The pipeline produced a final audited total of **$1,964,229,742** (Unverified) — 104.6% of the $1.878 billion FinCEN SAR benchmark.
+This document describes the extraction pipeline I built to identify and quantify financial transactions from 1,476,377 files across 19 DOJ EFTA datasets. The pipeline produced a publication ledger of **6,310 unique transactions** totaling **$2,146,000,000** (Unverified) across 10 payment types. The auditable subtotal (Tiers 1–3) reaches **$1,960,600,000** — 104.4% of the $1.878 billion FinCEN SAR benchmark.
 
 I wrote all extraction code, designed the database schema, and performed the forensic analysis as a solo effort, with AI assistance (Claude, Anthropic) for development acceleration and quality assurance. The full database architecture is documented in **[SCHEMA.md](SCHEMA.md)**.
 
@@ -22,7 +22,7 @@ I wrote all extraction code, designed the database schema, and performed the for
 | Entity extraction (spaCy NLP) | 11,438,106 entities |
 | Unique persons identified | 734,122 |
 | Database size | 8GB SQLite |
-| Relational tables | 35 |
+| Relational tables | 36 |
 
 ### Structured Database Tables Used in Wire Extraction
 
@@ -94,6 +94,10 @@ All amounts are (Unverified) automated extractions.
 | **23** | **Date-Aware Wire Census** | **+$191,304,691** | $1,843,653,804 | 98.2% | **Date dedup** |
 | **24** | **Above-Cap Verified Wires** | **+$120,575,938** | $1,964,229,742 | 104.6% | **Court-exhibit verified** |
 | **25** | **Date Recovery from Context** | **+75 dates, $0 Δ** | $1,964,229,742 | 104.6% | **Source context parsing, 0 collisions** |
+| **5I** | **Entity Resolution & Bank Expansion** | **481 wires, 228 entities, 14 banks** | $973,392,414 (entity-resolved) | — | **Entity classification + custodian audit** |
+| **5J** | **Multi-Bank Statement Parser** | **+1,202 transactions from 13 banks** | +$430K verified statements | — | **Statement-level verification** |
+| **5K** | **Payment Type Expansion** | **CHIPS, SWIFT, checks, bank statements** | 10 payment types | — | **Beyond wire transfers** |
+| **5L** | **Publication Ledger Assembly** | **6,310 unique, four-tier GAGAS** | **$2,146,000,000** | **104.4%** | **T1–T3 = $1,960,600,000** |
 
 ---
 
@@ -162,11 +166,11 @@ Nine data quality issues were identified and corrected during the pipeline:
 ## Tools & Infrastructure
 
 - **Language**: Python 3.12
-- **Database**: SQLite (8GB, 35 tables, 19 datasets)
+- **Database**: SQLite (8GB, 36 tables, 19 datasets)
 - **NLP**: spaCy entity extraction (11.4M entities, 734K persons)
 - **OCR Processing**: Tesseract-based text extraction with custom noise filters
 - **Analysis**: pandas, openpyxl, json
 - **Scoring**: 5-axis forensic confidence scoring (v6.2, 93% PROVEN accuracy)
 - **AI Assistance**: Claude (Anthropic) — development acceleration and quality assurance
 - **Version Control**: Git/GitHub
-- **Total effort**: ~200+ hours across 70+ sessions (February 7-21, 2026), solo practitioner
+- **Total effort**: ~300+ hours across 100+ sessions (February 7-25, 2026), solo practitioner
