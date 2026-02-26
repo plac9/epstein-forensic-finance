@@ -939,9 +939,6 @@ function openDetail(name) {
   html += `<div class="stat-card"><div class="sc-val">${fmt(node.i)}</div><div class="sc-lbl">Inflows</div></div>`;
   html += `<div class="stat-card"><div class="sc-val">${fmt(node.o)}</div><div class="sc-lbl">Outflows</div></div>`;
   html += `<div class="stat-card"><div class="sc-val">${commas(node.p)}</div><div class="sc-lbl">Payments</div></div>`;
-  if (node.fl > 0) {
-    html += `<div class="stat-card"><div class="sc-val">${commas(node.fl)}</div><div class="sc-lbl">Flight Records</div></div>`;
-  }
   if (node.fc > 0) {
     html += `<div class="stat-card"><div class="sc-val">${commas(node.fc)}</div><div class="sc-lbl">File References</div></div>`;
   }
