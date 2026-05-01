@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+> **Universal baseline:** Follow `~/dev/.standards/AGENT-STANDARDS.md` for session logging and protocols.
+
 Per-project context for Claude Code working in `epstein-forensic-finance`.
 
 ## What This Is
