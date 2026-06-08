@@ -30,7 +30,7 @@ Repo: `plac9/epstein-forensic-finance` · License: CC BY 4.0 · Status: Active r
 
 ## CI / Runners
 
-This is a `plac9/*` personal repo — workflows MUST use `runs-on: ubuntu-latest`, never `[self-hosted, homelab]` (homelab runners are LaClair-Technologies-org-scoped).
+No GitHub Actions workflows exist in this repo today (no `.github/workflows/`). This is a `plac9/*` personal repo — if CI is ever added, workflows MUST use `runs-on: ubuntu-latest`, never `[self-hosted, homelab]` (homelab runners are LaClair-Technologies-org-scoped). GitHub Pages publishes directly from `main` (no Actions deploy step).
 
 ## Don't
 
